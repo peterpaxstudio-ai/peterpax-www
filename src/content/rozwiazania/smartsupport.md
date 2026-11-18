@@ -10,5 +10,6 @@ efekt: { pl: "Spokojniejszy telefon i skrzynka.", en: "A calmer phone and inbox.
 wdrozenie: { pl: "5 dni", en: "5 days" }
 cenaOd: 990
 opisUrl: ""
+przyklad: true
 draft: false
 ---

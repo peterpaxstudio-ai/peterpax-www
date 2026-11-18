@@ -18,6 +18,7 @@ const n = d.nazwa.replace('Smart', '');
     <div>
       <h3>Smart<b>{n}</b></h3>
       <div class="tag">{d.tagline[lang]}</div>
+      {d.przyklad && <span class="badge">{t.example}</span>}
     </div>
   </div>
   <dl>

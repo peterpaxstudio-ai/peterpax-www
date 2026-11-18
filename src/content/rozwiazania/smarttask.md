@@ -10,5 +10,6 @@ efekt: { pl: "Każde ustalenie ma właściciela.", en: "Every agreement has an o
 wdrozenie: { pl: "2 dni", en: "2 days" }
 cenaOd: 390
 opisUrl: ""
+przyklad: true
 draft: false
 ---
