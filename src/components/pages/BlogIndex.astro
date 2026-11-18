@@ -8,7 +8,7 @@ const { lang } = Astro.props;
 const t = ui[lang];
 const base = paths[lang].blog;
 const posts = (await getCollection('blog'))
-  .filter((p) => !p.data.draft && p.data.lang === lang)
+  .filter((p) => !p.data.draft && p.data.lang === lang && p.data.pubDate <= new Date())
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 <Base title={`${t.blogTitle} Peter Pax`} description={lang === 'pl' ? 'Wpisy o automatyzacji w małych firmach.' : 'Posts about automation in small businesses.'} lang={lang} altPath={lang === 'pl' ? paths.en.blog : paths.pl.blog}>
