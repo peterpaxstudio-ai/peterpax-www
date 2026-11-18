@@ -18,6 +18,7 @@ const rozwiazania = defineCollection({
     wdrozenie: dwa(1, 30),
     cenaOd: z.number().int().positive(), // liczba, waluta z firma.json
     opisUrl: z.string().url().or(z.literal('')).default(''), // link do opisu na www
+    przyklad: z.boolean().default(false), // true = karta przykładowa, pokazuje znacznik
     draft: z.boolean().default(true),
   }),
 });

@@ -65,6 +65,7 @@ nav > a:not(.btn):hover { color: var(--ink); }
 /* grid */
 .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
 .card { background: var(--surface); border: 1.5px solid var(--line); border-radius: 26px; padding: 28px; display: flex; flex-direction: column; gap: 16px; transition: transform .2s, border-color .2s; }
+.badge { display: inline-block; margin-top: 6px; font: 700 12px var(--f-body); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); border: 1.5px dashed var(--muted); border-radius: 99px; padding: 3px 10px; }
 .card:hover { transform: translateY(-4px); border-color: var(--ink); }
 .top { display: flex; align-items: center; gap: 14px; }
 .ico { width: 52px; height: 52px; flex: none; display: grid; place-items: center; font: 800 22px var(--f-display); color: #2A2433; border-radius: 44% 56% 52% 48% / 55% 45% 55% 45%; }

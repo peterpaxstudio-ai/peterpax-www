@@ -22,6 +22,7 @@ export const ui = {
     from: 'Cena od',
     more: 'Zobacz opis',
     soon: 'Opis wkrótce',
+    example: 'Przykład',
     stepsTitle: 'Jak to wygląda w praktyce',
     steps: [
       ['Rozmowa', '30 minut. Opowiadasz, co Cię męczy. My słuchamy i dobieramy rozwiązanie.'],
@@ -57,6 +58,7 @@ export const ui = {
     from: 'From',
     more: 'See details',
     soon: 'Details soon',
+    example: 'Example',
     stepsTitle: 'How it works in practice',
     steps: [
       ['A call', '30 minutes. You tell us what drains you. We listen and match a solution.'],

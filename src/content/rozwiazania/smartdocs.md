@@ -10,5 +10,6 @@ efekt: { pl: "Oferta wychodzi w minuty.", en: "Offers go out in minutes." }
 wdrozenie: { pl: "3 dni", en: "3 days" }
 cenaOd: 490
 opisUrl: ""
+przyklad: true
 draft: false
 ---

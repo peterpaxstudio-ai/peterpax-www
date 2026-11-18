@@ -10,5 +10,6 @@ efekt: { pl: "Więcej zapytań zamienia się w rozmowy.", en: "More enquiries tu
 wdrozenie: { pl: "3 dni", en: "3 days" }
 cenaOd: 690
 opisUrl: ""
+przyklad: true
 draft: false
 ---

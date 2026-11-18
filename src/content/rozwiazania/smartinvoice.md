@@ -10,5 +10,6 @@ efekt: { pl: "Szybciej opłacone faktury.", en: "Invoices get paid faster." }
 wdrozenie: { pl: "3 dni", en: "3 days" }
 cenaOd: 590
 opisUrl: ""
+przyklad: true
 draft: false
 ---

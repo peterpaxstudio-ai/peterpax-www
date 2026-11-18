@@ -10,5 +10,6 @@ efekt: { pl: "Decyzje na podstawie liczb, nie wrażeń.", en: "Decisions based o
 wdrozenie: { pl: "3 dni", en: "3 days" }
 cenaOd: 590
 opisUrl: ""
+przyklad: true
 draft: false
 ---
