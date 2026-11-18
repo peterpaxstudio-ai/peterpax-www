@@ -1,7 +1,7 @@
 ---
 nazwa: SmartReport
-order: 6
-kolor: sage
+order: 13
+kolor: sun
 litera: "R"
 tagline: { pl: "Raport w poniedziałek rano", en: "A report on Monday morning" }
 problem: { pl: "Zestawienia sprzedaży składasz ręcznie z kilku plików.", en: "You build sales summaries by hand from several files." }

@@ -1,7 +1,7 @@
 ---
 nazwa: SmartDocs
-order: 9
-kolor: sun
+order: 15
+kolor: sky
 litera: "D"
 tagline: { pl: "Dokumenty z szablonu", en: "Documents from a template" }
 problem: { pl: "Umowy i oferty piszesz od nowa, zmieniając kilka danych.", en: "You rewrite contracts and offers just to change a few details." }

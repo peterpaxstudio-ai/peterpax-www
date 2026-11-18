@@ -1,14 +1,14 @@
 ---
 nazwa: SmartInbox
-order: 1
-kolor: sun
+order: 7
+kolor: sky
 litera: "I"
-tagline: { pl: "Porządek w skrzynce mailowej", en: "A tidy inbox" }
-problem: { pl: "Maile klientów toną wśród reklam i spraw na wczoraj.", en: "Client emails drown among ads and yesterday's problems." }
-jak: { pl: "Wiadomości trafiają do właściwych folderów, a na proste pytania są szkice odpowiedzi.", en: "Messages land in the right folders, and simple questions get draft replies." }
-efekt: { pl: "Mniej godzin w skrzynce tygodniowo.", en: "Fewer hours in the inbox every week." }
+tagline: { pl: "Skrzynka, która sortuje się sama", en: "An inbox that sorts itself" }
+problem: { pl: "Maile klientów i urzędów toną wśród setek innych wiadomości.", en: "Emails from clients and offices drown among hundreds of other messages." }
+jak: { pl: "System czyta każdy mail, nadaje priorytet, segreguje do folderów i przygotowuje szkic odpowiedzi do zatwierdzenia.", en: "The system reads each email, sets its priority, sorts it into folders and prepares a draft reply for approval." }
+efekt: { pl: "Mniej godzin w skrzynce, a pilne sprawy nie giną.", en: "Fewer hours in the inbox, and urgent matters do not slip through." }
 wdrozenie: { pl: "2 dni", en: "2 days" }
 cenaOd: 490
-opisUrl: ""
+opisUrl: "https://peterpax.pl/smartinbox/"
 draft: false
 ---
