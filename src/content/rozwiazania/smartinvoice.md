@@ -1,7 +1,7 @@
 ---
 nazwa: SmartInvoice
-order: 4
-kolor: rose
+order: 11
+kolor: sky
 litera: "F"
 tagline: { pl: "Faktury same się robią", en: "Invoices that write themselves" }
 problem: { pl: "Wystawianie i pilnowanie faktur pochłania wieczory.", en: "Issuing and chasing invoices eats your evenings." }

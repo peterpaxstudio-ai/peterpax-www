@@ -1,7 +1,7 @@
 ---
 nazwa: SmartLead
-order: 5
-kolor: sun
+order: 12
+kolor: rose
 litera: "L"
 tagline: { pl: "Żaden klient nie ginie", en: "No client gets lost" }
 problem: { pl: "Zapytania z formularza, Facebooka i telefonu rozjeżdżają się po notatkach.", en: "Enquiries from forms, Facebook and the phone end up scattered across notes." }

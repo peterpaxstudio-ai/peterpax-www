@@ -1,7 +1,7 @@
 ---
 nazwa: SmartTask
-order: 7
-kolor: sky
+order: 14
+kolor: sage
 litera: "T"
 tagline: { pl: "Zadania bez przypominania", en: "Tasks without nagging" }
 problem: { pl: "Ustalenia z rozmów ulatują, bo nikt ich nie spisał.", en: "Agreements from meetings vanish because nobody wrote them down." }

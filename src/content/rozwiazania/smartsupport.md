@@ -1,7 +1,7 @@
 ---
 nazwa: SmartSupport
-order: 10
-kolor: sage
+order: 16
+kolor: rose
 litera: "P"
 tagline: { pl: "Odpowiedzi o każdej porze", en: "Answers at any hour" }
 problem: { pl: "Te same pytania klientów wracają codziennie.", en: "The same client questions come back every day." }
