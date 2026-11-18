@@ -1,10 +1,15 @@
 name: Build to deploy branch
 
-# Po każdym merge do main buduje stronę i wypycha gotowe pliki (zawartość dist)
-# na gałąź `deploy`. Hostinger (hPanel > Git) wdraża tę gałąź do public_html.
+# Buduje stronę i wypycha gotowe pliki (zawartość dist) na gałąź `deploy`.
+# Hostinger (hPanel > Git) wdraża tę gałąź do public_html.
+# Uruchamia się po każdym merge do main oraz codziennie, żeby odsłaniać wpisy
+# bloga, których pubDate jest dzisiejszy (strona ukrywa wpisy z datą w przyszłości).
 on:
   push:
     branches: [main]
+  schedule:
+    # Codziennie o 10:00 UTC (11:00 czasu polskiego zimą, 12:00 latem).
+    - cron: '0 10 * * *'
   workflow_dispatch:
 
 permissions:
@@ -28,13 +33,18 @@ jobs:
       - run: npm ci
       - run: npm run build
 
-      - name: Push dist to deploy branch
+      - name: Push dist to deploy branch (only when something changed)
         run: |
           cd dist
           git init -b deploy
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -m "Deploy ${GITHUB_SHA}"
           git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          git fetch --depth=1 origin deploy || echo "No deploy branch yet"
+          git add -A
+          if git rev-parse --verify -q FETCH_HEAD >/dev/null && git diff --cached --quiet FETCH_HEAD; then
+            echo "Built site is identical to the deploy branch, skipping push."
+            exit 0
+          fi
+          git commit -m "Deploy ${GITHUB_SHA}"
           git push --force origin deploy
