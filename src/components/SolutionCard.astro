@@ -1,0 +1,37 @@
+---
+import firma from '../data/firma.json';
+import { ui, type Lang } from '../i18n/ui';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  lang: Lang;
+  s: CollectionEntry<'rozwiazania'>;
+}
+const { lang, s } = Astro.props;
+const t = ui[lang];
+const d = s.data;
+const n = d.nazwa.replace('Smart', '');
+---
+<article class="card">
+  <div class="top">
+    <span class="ico" style={`background:var(--${d.kolor})`}>{d.litera}</span>
+    <div>
+      <h3>Smart<b>{n}</b></h3>
+      <div class="tag">{d.tagline[lang]}</div>
+    </div>
+  </div>
+  <dl>
+    <div><dt>{t.problem}</dt><dd>{d.problem[lang]}</dd></div>
+    <div><dt>{t.how}</dt><dd>{d.jak[lang]}</dd></div>
+    <div><dt>{t.effect}</dt><dd>{d.efekt[lang]}</dd></div>
+  </dl>
+  <div class="meta">
+    <div>
+      <span><small>{t.setup}</small><strong>{d.wdrozenie[lang]}</strong></span>
+      <span><small>{t.from}</small><strong>{d.cenaOd} {firma.waluta[lang]}</strong></span>
+    </div>
+    {d.opisUrl
+      ? <a class="more" href={d.opisUrl} target="_blank" rel="noopener">{t.more} →</a>
+      : <span class="soon">{t.soon}</span>}
+  </div>
+</article>

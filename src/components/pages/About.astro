@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import { ui, paths, type Lang } from '../../i18n/ui';
+
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+const t = ui[lang];
+const p = paths[lang];
+const title = lang === 'pl' ? 'O firmie Peter Pax' : 'About Peter Pax';
+---
+<Base title={title} description={t.about1} lang={lang} altPath={lang === 'pl' ? paths.en.about : paths.pl.about}>
+  <section class="page">
+    <h1>{t.aboutTitle}</h1>
+    <p>{t.about1}</p>
+    <p>{t.about2}</p>
+    <div class="cta">
+      <a class="btn" href={p.contact}>{t.cta}</a>
+      <a class="btn ghost" href={p.blog}>{t.readBlog}</a>
+    </div>
+  </section>
+</Base>

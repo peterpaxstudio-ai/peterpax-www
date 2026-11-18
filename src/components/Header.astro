@@ -1,0 +1,29 @@
+---
+import { ui, paths, type Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  altPath: string;
+}
+const { lang, altPath } = Astro.props;
+const t = ui[lang];
+const p = paths[lang];
+const plHref = lang === 'pl' ? Astro.url.pathname : altPath;
+const enHref = lang === 'en' ? Astro.url.pathname : altPath;
+---
+<header>
+  <div class="wrap bar">
+    <a class="logo" href={p.home}><img src="/symbol.png" alt="" width="34" height="34" />Peter Pax</a>
+    <nav aria-label="Menu">
+      <a href={p.solutions}>{t.nav.solutions}</a>
+      <a href={p.about}>{t.nav.about}</a>
+      <a href={p.blog}>{t.nav.blog}</a>
+      <a href={p.contact}>{t.nav.contact}</a>
+      <div class="lang" role="group" aria-label="Language">
+        <a href={plHref} aria-current={lang === 'pl' ? 'true' : undefined}>PL</a>
+        <a href={enHref} aria-current={lang === 'en' ? 'true' : undefined}>EN</a>
+      </div>
+      <a class="btn" href={p.contact}>{t.cta}</a>
+    </nav>
+  </div>
+</header>

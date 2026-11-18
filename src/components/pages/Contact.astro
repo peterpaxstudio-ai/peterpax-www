@@ -1,0 +1,28 @@
+---
+import Base from '../../layouts/Base.astro';
+import firma from '../../data/firma.json';
+import { ui, paths, type Lang } from '../../i18n/ui';
+
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+const t = ui[lang];
+const title = lang === 'pl' ? 'Kontakt z Peter Pax' : 'Contact Peter Pax';
+const mail = `mailto:${firma.email}`;
+---
+<Base title={title} description={t.contactLead} lang={lang} altPath={lang === 'pl' ? paths.en.contact : paths.pl.contact}>
+  <section class="page">
+    <h1>{t.contactTitle}</h1>
+    <p>{t.contactLead}</p>
+    <div class="cta">
+      <a class="btn" href={mail}>{t.send}</a>
+      {firma.rezerwacjaUrl
+        ? <a class="btn ghost" href={firma.rezerwacjaUrl} target="_blank" rel="noopener">{t.book}</a>
+        : <span class="note">{t.bookSoon}</span>}
+    </div>
+    <div class="direct">
+      <span>{firma.email}</span>
+      <span>{firma.telefon}</span>
+    </div>
+    <p class="note">{t.reply}</p>
+  </section>
+</Base>

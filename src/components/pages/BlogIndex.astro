@@ -1,0 +1,28 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { ui, paths, type Lang } from '../../i18n/ui';
+
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+const t = ui[lang];
+const base = paths[lang].blog;
+const posts = (await getCollection('blog'))
+  .filter((p) => !p.data.draft && p.data.lang === lang)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+<Base title={`${t.blogTitle} Peter Pax`} description={lang === 'pl' ? 'Wpisy o automatyzacji w małych firmach.' : 'Posts about automation in small businesses.'} lang={lang} altPath={lang === 'pl' ? paths.en.blog : paths.pl.blog}>
+  <section class="page">
+    <h1>{t.blogTitle}</h1>
+    {posts.length === 0
+      ? <p>{t.blogEmpty}</p>
+      : <ul class="posts">
+          {posts.map((p) => (
+            <li>
+              <a href={`${base}${p.id}/`}>{p.data.title}</a>
+              <p>{p.data.description}</p>
+            </li>
+          ))}
+        </ul>}
+  </section>
+</Base>

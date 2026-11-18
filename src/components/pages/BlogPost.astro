@@ -1,0 +1,15 @@
+---
+import { render, type CollectionEntry } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { paths, type Lang } from '../../i18n/ui';
+
+interface Props { lang: Lang; post: CollectionEntry<'blog'>; }
+const { lang, post } = Astro.props;
+const { Content } = await render(post);
+---
+<Base title={post.data.title} description={post.data.description} lang={lang} altPath={lang === 'pl' ? paths.en.blog : paths.pl.blog}>
+  <article class="page prose">
+    <h1>{post.data.title}</h1>
+    <Content />
+  </article>
+</Base>

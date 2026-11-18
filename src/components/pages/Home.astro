@@ -1,0 +1,50 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import SolutionCard from '../SolutionCard.astro';
+import { ui, paths, type Lang } from '../../i18n/ui';
+
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+const t = ui[lang];
+const p = paths[lang];
+const solutions = (await getCollection('rozwiazania'))
+  .filter((s) => !s.data.draft)
+  .sort((a, b) => a.data.order - b.data.order);
+const title = lang === 'pl' ? 'Peter Pax Smart: automatyzacje dla małych firm' : 'Peter Pax Smart: automation for small businesses';
+---
+<Base title={title} description={t.lead} lang={lang} altPath={lang === 'pl' ? paths.en.home : paths.pl.home}>
+  <section class="hero">
+    <div>
+      <h1>{t.h1a} <em>{t.h1b}</em></h1>
+      <p>{t.lead}</p>
+      <div class="cta">
+        <a class="btn" href={p.contact}>{t.cta}</a>
+        <a class="btn ghost" href="#rozwiazania">{t.see}</a>
+      </div>
+    </div>
+    <div class="blobs" aria-hidden="true">
+      <span class="b1"></span><span class="b2"></span><span class="b3"></span><span class="b4"></span>
+      <span class="chip c3">SmartInbox ✓</span>
+      <span class="chip c1">SmartCal ✓</span>
+      <span class="chip c2">SmartStock ✓</span>
+    </div>
+  </section>
+
+  <section id="rozwiazania" class="anchor">
+    <div class="head">
+      <h2>{t.gridTitle}</h2>
+      <p>{t.gridLead}</p>
+    </div>
+    <div class="grid">
+      {solutions.map((s) => <SolutionCard lang={lang} s={s} />)}
+    </div>
+  </section>
+
+  <section class="steps" aria-labelledby="steps-title">
+    <h2 id="steps-title">{t.stepsTitle}</h2>
+    <ol>
+      {t.steps.map(([h, tx]) => <li><h3>{h}</h3><p>{tx}</p></li>)}
+    </ol>
+  </section>
+</Base>
