@@ -1,0 +1,164 @@
+{
+  "pl": {
+    "title": "SmartStock: magazyn, który sam pilnuje porządku",
+    "description": "SmartStock zamienia kartki i telefony w jedno zlecenie z powiadomieniem na Telegramie i automatyczną aktualizacją stanów. Wdrożenie do 7 dni.",
+    "eyebrow": "Automatyzacja magazynu bez drogich systemów ERP",
+    "heroTitle": "Magazyn, który sam pilnuje porządku",
+    "lead": "Koniec z gubiącymi się kartkami, telefonami i bieganiem do magazynu. Zamówienie wpada, pracownik dostaje powiadomienie na Telegramie, a stany magazynowe aktualizują się same za jednym kliknięciem.",
+    "facts": [
+      { "v": "7 dni", "l": "czas pełnego wdrożenia" },
+      { "v": "1 klik", "l": "wystarczy pracownikowi do potwierdzenia" },
+      { "v": "0", "l": "licencji za użytkownika czy pracownika" },
+      { "v": "100%", "l": "pewności, co i kiedy wyjechało z magazynu" }
+    ],
+    "problem": {
+      "title": "Chaos, nerwy i brak kontroli nad towarem",
+      "lead": "Codzienny chaos magazynowy w małej i średniej firmie kończy się stratami finansowymi, opóźnieniami w dostawach i wiecznym stresem właściciela.",
+      "items": [
+        { "t": "Zamówienia telefoniczne na kartkach", "d": "Pracownik biura zapisuje zamówienie w pośpiechu, kartka gubi się albo nikt nie może rozczytać ilości." },
+        { "t": "Bieganie do magazynu", "d": "Właściciel lub spedytor osobiście chodzi przekazywać dyspozycje pracownikom." },
+        { "t": "Niewiedza o stanach", "d": "Klient pyta o dostępność, a Ty musisz fizycznie sprawdzić plac lub halę." },
+        { "t": "Brak odpowiedzialności", "d": "Nie wiadomo, kto wydał towar i czy zamówienie w ogóle wyjechało do klienta." }
+      ]
+    },
+    "solution": {
+      "title": "Pełna automatyzacja i spokój ducha",
+      "lead": "Efekt: 100% kontroli, zero papierologii i wolna głowa właściciela.",
+      "items": [
+        { "t": "Czysty formularz zamówień", "d": "15 sekund na wpisanie zlecenia, które od razu trafia do rejestru ze statusem i unikalnym numerem." },
+        { "t": "Polecenie w kieszeni", "d": "Magazynier dostaje wiadomość na Telegramie z danymi klienta i towarem." },
+        { "t": "Auto-korekta stanów i alerty braków", "d": "Wydanie automatycznie zmniejsza stan, a gdy towar się kończy, szef dostaje alert." },
+        { "t": "Koniec dnia w jednym raporcie", "d": "O 18:00 podsumowanie: ile wydano, jakie zlecenia zrealizowano i czy wszystko gra." }
+      ]
+    },
+    "steps": {
+      "title": "Jak działa system w 4 prostych krokach",
+      "lead": "Bez uczenia się nowych programów. Pracujesz na narzędziach, które znasz.",
+      "items": [
+        { "t": "Przyjęcie zlecenia", "d": "Klient dzwoni lub wypełnia formularz. Wpisujesz klienta, towar, ilość i adres dostawy." },
+        { "t": "Powiadomienie na telefon", "d": "Na Telegram magazyniera trafia dyspozycja z gotowymi przyciskami." },
+        { "t": "Potwierdzenie wydania", "d": "Pracownik ładuje towar i klika „Wydano”. Status zamówienia od razu zmienia się na zrealizowane." },
+        { "t": "Stan i raport szefa", "d": "Stan schodzi z bazy, zapisuje się log wydania, a w razie braków właściciel od razu dostaje alert." }
+      ]
+    },
+    "benefits": {
+      "title": "Co zyskujesz",
+      "items": [
+        { "t": "Kontrolę", "d": "Wiesz dokładnie, kto wydał towar, w jakiej ilości i o której minucie." },
+        { "t": "Spokój", "d": "Nie biegasz po magazynie i nie sprawdzasz stanów na hali." },
+        { "t": "Porządek", "d": "Zero papierologii, każde zlecenie ma status i numer." }
+      ]
+    },
+    "extras": {
+      "title": "5 modułów tworzących Twój system",
+      "lead": "Wszystko skonfigurowane, połączone i przetestowane pod specyfikę Twojego biznesu.",
+      "items": [
+        { "t": "Przyjęcie zamówień", "d": "Prosty formularz dla biura lub klienta, automatyczny numer zlecenia i rejestr w chmurze." },
+        { "t": "Powiadomienia na Telegramie", "d": "Dedykowany bot wysyła dyspozycje wydań na telefony magazynierów. Przyciski pozwalają zmienić status bez otwierania arkuszy." },
+        { "t": "Stany magazynowe i alerty", "d": "Baza asortymentu powiązana z wydaniami. Gdy stan spadnie poniżej ustalonego minimum, właściciel dostaje alert." },
+        { "t": "Raport dzienny dla właściciela", "d": "Codzienne zestawienie o 18:00 (lub innej godzinie): wydania, liczba zrealizowanych zleceń i stany krytyczne." },
+        { "t": "Log wydań i audyt", "d": "Chronologiczny rejestr każdego fizycznego wydania towaru. Koniec z niedomówieniami." },
+        { "t": "Opieka i hosting", "d": "Dedykowany, bezpieczny serwer, stały monitoring 24/7, kopie zapasowe, aktualizacje i opieka techniczna." }
+      ]
+    },
+    "start": {
+      "title": "Wdrożenie do 7 dni roboczych",
+      "items": [
+        { "t": "Bez wstrzymywania pracy", "d": "Przygotowujemy i konfigurujemy cały system równolegle, nie zakłócając Waszej bieżącej pracy. W wybranym dniu po prostu przechodzicie na rejestrację zleceń przez nowy formularz." },
+        { "t": "Prototyp na żywo", "d": "Pokażemy działający prototyp i dopasujemy logikę do specyfiki Twojego towaru i zespołu." },
+        { "t": "Rozbudowa w przyszłości", "d": "W każdej chwili możemy dołączyć fakturowanie, integrację ze sklepem internetowym (WooCommerce, PrestaShop, Shopify), kody kreskowe lub QR oraz bramkę SMS." }
+      ]
+    },
+    "faq": [
+      { "q": "Czy moi pracownicy poradzą sobie z obsługą systemu?", "a": "Tak. Magazynier nie musi uczyć się żadnych skomplikowanych programów ani logować do paneli. Dostaje wiadomość na Telegramie i klika jeden przycisk: „Wydano”. Jeśli potrafi wysłać SMS-a, poradzi sobie od pierwszego dnia." },
+      { "q": "Czy muszę kupować drogie serwery lub licencje?", "a": "Nie. Całość bazuje na arkuszach Google i zarządzanym przez nas serwerze. Nie płacisz za każdego użytkownika ani nie ponosisz ukrytych opłat licencyjnych." },
+      { "q": "Ile trwa wdrożenie i czy wstrzyma pracę firmy?", "a": "Do 7 dni roboczych. System konfigurujemy równolegle, bez zakłócania bieżącej pracy." },
+      { "q": "Co jeśli w przyszłości będziemy chcieli rozbudować system?", "a": "W każdej chwili możemy dołączyć fakturowanie, integrację ze sklepem internetowym, moduł kodów kreskowych lub QR albo bramkę SMS." }
+    ],
+    "cta": {
+      "title": "Gotowy na porządek w magazynie?",
+      "text": "Zbudujmy Twój system w mniej niż 7 dni. Skontaktuj się z nami, a pokażemy działający prototyp na żywo i dopasujemy logikę do Twojego towaru i zespołu."
+    }
+  },
+  "en": {
+    "title": "SmartStock: a warehouse that keeps itself in order",
+    "description": "SmartStock turns paper slips and phone calls into one order with a Telegram notification and automatic stock updates. Setup in up to 7 days.",
+    "eyebrow": "Warehouse automation without expensive ERP systems",
+    "heroTitle": "A warehouse that keeps itself in order",
+    "lead": "No more lost paper slips, phone calls and running to the warehouse. An order comes in, the worker gets a Telegram notification, and stock levels update themselves with one click.",
+    "facts": [
+      { "v": "7 days", "l": "to full rollout" },
+      { "v": "1 click", "l": "is all a worker needs to confirm" },
+      { "v": "0", "l": "licences per user or employee" },
+      { "v": "100%", "l": "certainty about what left the warehouse and when" }
+    ],
+    "problem": {
+      "title": "Chaos, nerves and no control over goods",
+      "lead": "Daily warehouse chaos in a small or medium business ends in financial losses, delivery delays and constant stress for the owner.",
+      "items": [
+        { "t": "Phone orders on paper slips", "d": "An office worker jots the order down in a hurry, the slip gets lost or nobody can read the quantity." },
+        { "t": "Running to the warehouse", "d": "The owner or forwarder walks over personally to pass instructions to workers." },
+        { "t": "No idea about stock", "d": "A client asks about availability, and you have to physically check the yard or the hall." },
+        { "t": "No accountability", "d": "Nobody knows who released the goods or whether the order was shipped at all." }
+      ]
+    },
+    "solution": {
+      "title": "Full automation and peace of mind",
+      "lead": "The result: 100% control, no paperwork and a clear head for the owner.",
+      "items": [
+        { "t": "A clean order form", "d": "15 seconds to enter an order, which goes straight into the register with a status and a unique number." },
+        { "t": "The instruction in your pocket", "d": "The warehouse worker gets a Telegram message with the client's details and the goods." },
+        { "t": "Automatic stock correction and shortage alerts", "d": "A release automatically reduces stock, and when goods run low the boss gets an alert." },
+        { "t": "The end of the day in one report", "d": "At 18:00 a summary: what was released, which orders were completed and whether everything is fine." }
+      ]
+    },
+    "steps": {
+      "title": "How the system works in 4 simple steps",
+      "lead": "No learning new programs. You work with tools you know.",
+      "items": [
+        { "t": "Taking the order", "d": "The client calls or fills in a form. You enter the client, goods, quantity and delivery address." },
+        { "t": "A notification on the phone", "d": "An instruction with ready buttons lands on the warehouse worker's Telegram." },
+        { "t": "Confirming the release", "d": "The worker loads the goods and taps “Released”. The order status changes to completed at once." },
+        { "t": "Stock and the boss's report", "d": "Stock comes off the database, a release log is saved, and if anything runs low the owner gets an alert right away." }
+      ]
+    },
+    "benefits": {
+      "title": "What you gain",
+      "items": [
+        { "t": "Control", "d": "You know exactly who released the goods, in what quantity and at what minute." },
+        { "t": "Peace of mind", "d": "You do not run around the warehouse or check stock on the yard." },
+        { "t": "Order", "d": "No paperwork, and every order has a status and a number." }
+      ]
+    },
+    "extras": {
+      "title": "5 modules that make up your system",
+      "lead": "Everything configured, connected and tested for the specifics of your business.",
+      "items": [
+        { "t": "Order intake", "d": "A simple form for the office or the client, an automatic order number and a register in the cloud." },
+        { "t": "Telegram notifications", "d": "A dedicated bot sends release instructions to workers' phones. Buttons let them change the status without opening sheets." },
+        { "t": "Stock levels and alerts", "d": "An item database linked to releases. When stock falls below an agreed minimum, the owner gets an alert." },
+        { "t": "A daily owner's report", "d": "A daily summary at 18:00 (or another time): releases, number of completed orders and critical stock levels." },
+        { "t": "Release log and audit", "d": "A chronological record of every physical release of goods. No more ambiguity." },
+        { "t": "Care and hosting", "d": "A dedicated, secure server, constant 24/7 monitoring, backups, updates and technical support." }
+      ]
+    },
+    "start": {
+      "title": "Setup in up to 7 working days",
+      "items": [
+        { "t": "No pause in your work", "d": "We prepare and configure the whole system in parallel, without disturbing your day-to-day work. On the chosen day you simply switch to registering orders through the new form." },
+        { "t": "A live prototype", "d": "We will show a working prototype and fit the logic to your goods and team." },
+        { "t": "Extending it later", "d": "At any time we can add invoicing, an online shop integration (WooCommerce, PrestaShop, Shopify), barcodes or QR codes, and an SMS gateway." }
+      ]
+    },
+    "faq": [
+      { "q": "Will my employees cope with the system?", "a": "Yes. A warehouse worker does not have to learn any complicated programs or log in to panels. They get a Telegram message and tap one button: “Released”. If they can send a text message, they can use it from day one." },
+      { "q": "Do I have to buy expensive servers or licences?", "a": "No. It is all based on Google Sheets and a server we manage. You do not pay for every user or any hidden licence fees." },
+      { "q": "How long does setup take and will it stop the company's work?", "a": "Up to 7 working days. We configure the system in parallel, without disturbing your current work." },
+      { "q": "What if we want to extend the system later?", "a": "At any time we can add invoicing, an online shop integration, a barcode or QR module, or an SMS gateway." }
+    ],
+    "cta": {
+      "title": "Ready for order in your warehouse?",
+      "text": "Let's build your system in under 7 days. Get in touch and we will show a working prototype live and fit the logic to your goods and team."
+    }
+  }
+}

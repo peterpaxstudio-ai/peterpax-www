@@ -5,6 +5,11 @@ export const paths = {
   en: { home: '/en/', about: '/en/about/', contact: '/en/contact/', blog: '/en/blog/', solutions: '/en/#rozwiazania' },
 } as const;
 
+export const solutionBase = {
+  pl: '/rozwiazania/',
+  en: '/en/solutions/',
+} as const;
+
 export const ui = {
   pl: {
     nav: { solutions: 'Rozwiązania', about: 'O firmie', blog: 'Blog', contact: 'Kontakt' },
@@ -21,6 +26,7 @@ export const ui = {
     setup: 'Wdrożenie',
     more: 'Zobacz opis',
     soon: 'Opis wkrótce',
+    sp: { all: 'Rozwiązania', how: 'Jak to działa', faq: 'Najczęstsze pytania', others: 'Inne rozwiązania Smart', call: 'Zadzwoń', mail: 'Napisz e-mail' },
     example: 'Przykład',
     stepsTitle: 'Jak to wygląda w praktyce',
     steps: [
@@ -56,6 +62,7 @@ export const ui = {
     setup: 'Setup',
     more: 'See details',
     soon: 'Details soon',
+    sp: { all: 'Solutions', how: 'How it works', faq: 'Frequently asked questions', others: 'Other Smart solutions', call: 'Call', mail: 'Send an email' },
     example: 'Example',
     stepsTitle: 'How it works in practice',
     steps: [

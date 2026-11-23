@@ -20,6 +20,12 @@ Zbudowana w Astro. Treści edytujesz Ty (agent), człowiek zatwierdza Pull Reque
 - Nie opisuj narzędzi technicznych (n8n, Make, API). Opisuj problem i efekt dla klienta.
 - Teksty krótkie: problem, jak, efekt maks. 2 zdania.
 
+## Strony opisowe rozwiązań (`src/content/opisy/`)
+- Jeden plik `.json` = jedna strona opisowa, nazwa pliku taka sama jak plik karty w `rozwiazania` (np. `smartinbox.json` dla `smartinbox.md`). Plik ma klucze `pl` i `en`, obie wersje zawsze uzupełniaj.
+- Struktura jest stała (wspólny design): `title` (20-70 znaków), `description` (80-160), `eyebrow`, `heroTitle`, `lead`, `facts`, `problem`, `solution`, `steps`, `benefits`, opcjonalnie `extras` i `start`, `faq`, `cta`. Sekcje to `{ title, lead?, items: [{ t, d? }] }`.
+- Treść bierz z opisu rozwiązania (strony na peterpax.pl lub materiałów od Piotra), nie wymyślaj. Bez cen, kwot, nazw narzędzi technicznych (n8n, GPT) i opinii klientów.
+- Karta w `rozwiazania` automatycznie prowadzi do strony opisowej, gdy istnieje plik o tej samej nazwie. Strony: `/rozwiazania/<nazwa>/` (PL) i `/en/solutions/<nazwa>/` (EN).
+
 ## Blog (`src/content/blog/`)
 - Pole `lang`: `pl` albo `en`. Wersja EN to osobny plik, zwykle z końcówką `-en` w nazwie.
 - title 20-70 znaków, description 80-160 znaków.

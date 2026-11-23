@@ -1,0 +1,140 @@
+{
+  "pl": {
+    "title": "SmartFiles: porządek w ofertach handlowych bez wysiłku",
+    "description": "Handlowiec klika „Wyślij”, a SmartFiles zapisuje ofertę na Dysku Google pod jednolitą nazwą i dopisuje wiersz do rejestru. Wdrożenie w 24 godziny.",
+    "eyebrow": "Dla działów handlowych",
+    "heroTitle": "Koniec z chaosem w ofertach handlowych",
+    "lead": "Handlowiec klika tylko „Wyślij”. Reszta dzieje się sama, niewidocznie w tle programu pocztowego.",
+    "facts": [
+      { "v": "24 h", "l": "wdrożenie" },
+      { "v": "4 kroki", "l": "od maila do rejestru" },
+      { "v": "0 s", "l": "straty czasu handlowca" }
+    ],
+    "problem": {
+      "title": "Gdzie podziała się oferta dla klienta X z zeszłego wtorku?",
+      "lead": "Twoi handlowcy wysyłają dziesiątki wycen tygodniowo. Gdy pytasz o konkretny plik lub podsumowanie miesiąca, zaczyna się nerwowe przekopywanie skrzynek i folderów „Pobrane”.",
+      "items": [
+        { "t": "Rozproszenie na laptopach", "d": "Każdy handlowiec trzyma pliki u siebie na pulpicie. Gdy ktoś jest na urlopie, nikt inny nie ma wglądu w wysłaną wycenę." },
+        { "t": "Śmietnik w nazwach", "d": "oferta_poprawiona_v2.pdf, wycena-ostateczna(1).pdf. Zero standardu, brak dat, brak nazwy klienta w tytule pliku." },
+        { "t": "Brak centralnego rejestru", "d": "Arkusz z ofertami albo nie istnieje, albo nikt go nie uzupełnia. Zarząd nie ma wglądu w liczbę wycen." },
+        { "t": "Uciekające follow-upy", "d": "Wyceny zostają bez odpowiedzi, a handlowcy zapominają zadzwonić po 5 dniach." }
+      ]
+    },
+    "solution": {
+      "title": "Rozwiązanie bez zmiany nawyków",
+      "lead": "Nie zmuszasz zespołu do wklepywania danych do ociężałych systemów. SmartFiles działa w tle programu pocztowego (Thunderbird, Outlook, webmail) i nie wymaga instalowania niczego na komputerach pracowników.",
+      "items": [
+        { "t": "Jednolita nazwa pliku", "d": "Wzorzec RRRR-MM-DD_Nadawca_Temat.pdf, na przykład 2026-11-18_JanKowalski_FirmaABC.pdf." },
+        { "t": "Wszystko w jednym folderze", "d": "Kopia każdej oferty trafia do bezpiecznego folderu Dysku Google Twojej firmy." },
+        { "t": "Rejestr w arkuszu Google", "d": "Nowy wiersz pojawia się od razu: data, kto wysłał, do kogo oraz bezpośredni link do podglądu PDF." }
+      ]
+    },
+    "steps": {
+      "title": "Jak działa SmartFiles w 4 krokach",
+      "lead": "Zero dodatkowego oprogramowania do instalowania na komputerach pracowników.",
+      "items": [
+        { "t": "Handlowiec wysyła maila", "d": "Wysyła ofertę z załącznikiem PDF dokładnie tak jak do tej pory, ze swojego programu pocztowego." },
+        { "t": "Automatyczna detekcja", "d": "System w ułamku sekundy wychwytuje nową wiadomość i sprawdza słowa kluczowe (oferta, wycena) oraz obecność pliku PDF." },
+        { "t": "Ujednolicenie i Dysk Google", "d": "SmartFiles standaryzuje nazwę pliku i zapisuje kopię w folderze w chmurze." },
+        { "t": "Wpis w arkuszu", "d": "W centralnym arkuszu od razu pojawia się nowy wiersz z linkiem do podglądu PDF." }
+      ]
+    },
+    "benefits": {
+      "title": "Zobacz różnicę w codziennej pracy",
+      "lead": "Prawdziwy porządek w dokumentacji sprzedażowej bez oporu zespołu.",
+      "items": [
+        { "t": "Zero ręcznego kopiowania", "d": "Zapis po kliknięciu „Wyślij” jest w 100% automatyczny, nikt nie musi pamiętać o kopiowaniu PDF." },
+        { "t": "Rejestr, który się sam uzupełnia", "d": "Arkusz aktualizuje się w czasie rzeczywistym, więc właściciel wie, ile ofert wysłano w tym tygodniu." },
+        { "t": "Historia zostaje w firmie", "d": "Gdy pracownik odchodzi, jego wyceny nie znikają razem z nim." },
+        { "t": "Jedno kliknięcie do pliku", "d": "Link w arkuszu otwiera oryginalny PDF na dowolnym urządzeniu." }
+      ]
+    },
+    "start": {
+      "title": "Wdrożenie w 24 godziny",
+      "lead": "Bez przestojów w firmie i bez skomplikowanych szkoleń.",
+      "items": [
+        { "t": "Twoje narzędzia", "d": "Wykorzystujemy Google Workspace i Twoją obecną pocztę." },
+        { "t": "Zero oporu zespołu", "d": "Handlowcy nie muszą uczyć się żadnego nowego interfejsu." },
+        { "t": "Prywatność i chmura", "d": "Wszystkie dane pozostają wyłącznie w firmowej infrastrukturze." }
+      ]
+    },
+    "faq": [
+      { "q": "Czy handlowcy muszą zmieniać sposób pracy?", "a": "Nie. Wysyłają oferty ze swojego programu pocztowego tak jak do tej pory." },
+      { "q": "Czy muszę instalować coś na komputerach?", "a": "Nie. SmartFiles działa niewidocznie w tle poczty, bez dodatkowego oprogramowania na komputerach pracowników." },
+      { "q": "Gdzie trafiają pliki i dane?", "a": "Do folderu Dysku Google i arkusza w Twojej firmowej infrastrukturze." }
+    ],
+    "cta": {
+      "title": "Gotowy na porządek w wycenach?",
+      "text": "Przestań tracić czas na szukanie starych ofert. Wdrożymy SmartFiles w Twoim dziale sprzedaży w jeden dzień. Umów krótkie 15-minutowe demo."
+    }
+  },
+  "en": {
+    "title": "SmartFiles: order in your sales quotes without effort",
+    "description": "A salesperson clicks “Send”, and SmartFiles saves the quote on Google Drive under a standard name and adds a row to the register. Setup in 24 hours.",
+    "eyebrow": "For sales teams",
+    "heroTitle": "An end to chaos in sales quotes",
+    "lead": "A salesperson just clicks “Send”. The rest happens by itself, invisibly in the background of the email program.",
+    "facts": [
+      { "v": "24 h", "l": "setup" },
+      { "v": "4 steps", "l": "from email to register" },
+      { "v": "0 s", "l": "of the salesperson's time lost" }
+    ],
+    "problem": {
+      "title": "Where did the quote for client X from last Tuesday go?",
+      "lead": "Your salespeople send dozens of quotes a week. When you ask for a particular file or a month's summary, a nervous dig through inboxes and “Downloads” folders begins.",
+      "items": [
+        { "t": "Scattered across laptops", "d": "Every salesperson keeps files on their own desktop. When someone is on leave, nobody else can see the quote that was sent." },
+        { "t": "A mess of names", "d": "quote_corrected_v2.pdf, final-quote(1).pdf. No standard, no dates, no client name in the file title." },
+        { "t": "No central register", "d": "A quotes sheet either does not exist or nobody fills it in. Management cannot see how many quotes go out." },
+        { "t": "Follow-ups that slip away", "d": "Quotes are left unanswered, and salespeople forget to call after 5 days." }
+      ]
+    },
+    "solution": {
+      "title": "A solution that needs no change of habits",
+      "lead": "You do not force your team to key data into clunky systems. SmartFiles works in the background of the email program (Thunderbird, Outlook, webmail) and needs nothing installed on employees' computers.",
+      "items": [
+        { "t": "A standard file name", "d": "The pattern YYYY-MM-DD_Sender_Subject.pdf, for example 2026-11-18_JanKowalski_FirmaABC.pdf." },
+        { "t": "Everything in one folder", "d": "A copy of every quote goes to a secure folder on your company's Google Drive." },
+        { "t": "A register in a Google Sheet", "d": "A new row appears at once: date, who sent it, to whom and a direct link to preview the PDF." }
+      ]
+    },
+    "steps": {
+      "title": "How SmartFiles works in 4 steps",
+      "lead": "No extra software to install on employees' computers.",
+      "items": [
+        { "t": "The salesperson sends an email", "d": "They send the quote with a PDF attachment exactly as before, from their own email program." },
+        { "t": "Automatic detection", "d": "In a fraction of a second the system catches the new message and checks keywords (quote, offer) and whether a PDF is attached." },
+        { "t": "Standardizing and Google Drive", "d": "SmartFiles standardizes the file name and saves a copy to a folder in the cloud." },
+        { "t": "An entry in the sheet", "d": "A new row with a link to preview the PDF appears in the central sheet at once." }
+      ]
+    },
+    "benefits": {
+      "title": "See the difference in daily work",
+      "lead": "Real order in your sales documents without resistance from the team.",
+      "items": [
+        { "t": "No manual copying", "d": "Saving after you click “Send” is 100% automatic, and nobody has to remember to copy the PDF." },
+        { "t": "A register that fills itself", "d": "The sheet updates in real time, so the owner knows how many quotes went out this week." },
+        { "t": "History stays in the company", "d": "When an employee leaves, their quotes do not disappear with them." },
+        { "t": "One click to the file", "d": "A link in the sheet opens the original PDF on any device." }
+      ]
+    },
+    "start": {
+      "title": "Setup in 24 hours",
+      "lead": "No downtime in the company and no complicated training.",
+      "items": [
+        { "t": "Your tools", "d": "We use Google Workspace and your current email." },
+        { "t": "No resistance from the team", "d": "Salespeople do not have to learn any new interface." },
+        { "t": "Privacy and the cloud", "d": "All data stays only within your company's own infrastructure." }
+      ]
+    },
+    "faq": [
+      { "q": "Do salespeople have to change how they work?", "a": "No. They send quotes from their email program as before." },
+      { "q": "Do I have to install anything on computers?", "a": "No. SmartFiles works invisibly in the background of email, with no extra software on employees' computers." },
+      { "q": "Where do the files and data go?", "a": "To a Google Drive folder and a sheet in your company's own infrastructure." }
+    ],
+    "cta": {
+      "title": "Ready for order in your quotes?",
+      "text": "Stop wasting time searching for old quotes. We will set up SmartFiles in your sales department in one day. Book a short 15-minute demo."
+    }
+  }
+}

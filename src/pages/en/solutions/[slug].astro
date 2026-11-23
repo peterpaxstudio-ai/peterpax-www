@@ -1,0 +1,11 @@
+---
+import { getCollection } from 'astro:content';
+import SolutionPage from '../../../components/pages/SolutionPage.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('opisy');
+  return pages.map((p) => ({ params: { slug: p.id } }));
+}
+const { slug } = Astro.params;
+---
+<SolutionPage lang="en" slug={slug as string} />

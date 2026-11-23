@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import SolutionCard from '../SolutionCard.astro';
-import { ui, paths, type Lang } from '../../i18n/ui';
+import { ui, paths, solutionBase, type Lang } from '../../i18n/ui';
 
 interface Props { lang: Lang; }
 const { lang } = Astro.props;
@@ -11,6 +11,7 @@ const p = paths[lang];
 const solutions = (await getCollection('rozwiazania'))
   .filter((s) => !s.data.draft)
   .sort((a, b) => a.data.order - b.data.order);
+const pageIds = new Set((await getCollection('opisy')).map((o) => o.id));
 const title = lang === 'pl' ? 'Peter Pax Smart: automatyzacje dla małych firm' : 'Peter Pax Smart: automation for small businesses';
 ---
 <Base title={title} description={t.lead} lang={lang} altPath={lang === 'pl' ? paths.en.home : paths.pl.home}>
@@ -37,7 +38,7 @@ const title = lang === 'pl' ? 'Peter Pax Smart: automatyzacje dla małych firm' 
       <p>{t.gridLead}</p>
     </div>
     <div class="grid">
-      {solutions.map((s) => <SolutionCard lang={lang} s={s} />)}
+      {solutions.map((s) => <SolutionCard lang={lang} s={s} pageHref={pageIds.has(s.id) ? `${solutionBase[lang]}${s.id}/` : undefined} />)}
     </div>
   </section>
 

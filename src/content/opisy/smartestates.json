@@ -1,0 +1,116 @@
+{
+  "pl": {
+    "title": "SmartEstates: odpowiedź na lead z portalu w 3 sekundy",
+    "description": "SmartEstates odbiera zapytania z Otodom i OLX, sprawdza duplikaty, odpowiada klientowi i przypisuje lead agentowi, zanim konkurencja otworzy maila.",
+    "eyebrow": "System automatyzacji dla agencji nieruchomości",
+    "heroTitle": "Przestań tracić klientów na rzecz konkurencji",
+    "lead": "System, który odpowiada na zapytania z portali w 3 sekundy, zanim konkurencja przeczyta maila.",
+    "facts": [
+      { "v": "3 s", "l": "czas reakcji na lead" },
+      { "v": "7 dni", "l": "do pełnego wdrożenia" },
+      { "v": "14 dni", "l": "pilot z Twoim CRM-em" }
+    ],
+    "problem": {
+      "title": "Czy to brzmi znajomo?",
+      "items": [
+        { "t": "Gubienie leadów z Otodom i OLX", "d": "W chaosie codzienności zapytania giną w skrzynce, a klienci trafiają do konkurencji." },
+        { "t": "Duplikaty paraliżujące zespół", "d": "Ten sam klient trzy razy w bazie. Agenci dzwonią do tych samych osób i marnują czas." },
+        { "t": "Odpowiedzi po dwóch godzinach", "d": "Gdy odpowiadasz, klient umówił już oglądanie z inną agencją." },
+        { "t": "Ręczne przeklejanie danych", "d": "Kopiowanie z portali do CRM-a zajmuje godziny, a błędy są nieuniknione." }
+      ]
+    },
+    "solution": {
+      "title": "Pierwsze minuty decydują o wszystkim",
+      "lead": "SmartEstates robi w kilka sekund to, co zespół robi ręcznie w kilka godzin.",
+      "items": [
+        { "t": "Odbiera lead z portali", "d": "W 3 sekundy od zgłoszenia." },
+        { "t": "Sprawdza duplikaty", "d": "Wszystkie wpisy jednego klienta łączą się w jedną kartę." },
+        { "t": "Ocenia potencjał klienta", "d": "AI analizuje budżet i lokalizację." },
+        { "t": "Wysyła spersonalizowany SMS", "d": "Klient od razu czuje się zaopiekowany." },
+        { "t": "Przypisuje do agenta", "d": "Automatyczna rotacja, bez konfliktów w zespole." },
+        { "t": "Zapisuje w CRM", "d": "Pełna automatyzacja, bez przeklejania." }
+      ]
+    },
+    "steps": {
+      "title": "Jak zaczynamy",
+      "items": [
+        { "t": "Demo na żywo", "d": "30 minut prezentacji na Twoich prawdziwych danych." },
+        { "t": "Pilot 14-dniowy", "d": "Wdrożenie z Twoim CRM-em. Porównujesz wyniki i decydujesz." },
+        { "t": "Pełne wdrożenie", "d": "Własny serwer, integracja i szkolenie. Gotowe w 7 dni." }
+      ]
+    },
+    "benefits": {
+      "title": "Co zmienia SmartEstates",
+      "items": [
+        { "t": "Twoje dane są Twoją własnością", "d": "Rozwiązanie działa na Twoim serwerze, bez obcych chmur i z pełną kontrolą." },
+        { "t": "Autoresponder jak człowiek", "d": "Spersonalizowane wiadomości kilkanaście sekund po zgłoszeniu." },
+        { "t": "Data enrichment", "d": "Z chaosu maili wyciąga imię, telefon, budżet i link do oferty." },
+        { "t": "Sprawiedliwy podział leadów", "d": "Automatyczna rotacja między agentami." },
+        { "t": "Monitoring 24/7", "d": "System skanuje okazje i oznacza „HOT DEAL” przed konkurencją." },
+        { "t": "Alerty o obniżkach cen", "d": "Automatyczny SMS, gdy oferta potanieje, i klient wraca do rozmowy." }
+      ]
+    },
+    "faq": [],
+    "cta": {
+      "title": "Ile klientów straciłeś w zeszłym tygodniu, bo odpowiedziałeś za późno?",
+      "text": "Umów bezpłatne demo. W 30 minut pokażemy SmartEstates na Twoich prawdziwych danych."
+    }
+  },
+  "en": {
+    "title": "SmartEstates: a reply to a portal lead in 3 seconds",
+    "description": "SmartEstates picks up enquiries from property portals, checks duplicates, replies to the client and assigns the lead before competitors open their email.",
+    "eyebrow": "An automation system for real estate agencies",
+    "heroTitle": "Stop losing clients to the competition",
+    "lead": "A system that replies to portal enquiries in 3 seconds, before your competitor has read the email.",
+    "facts": [
+      { "v": "3 s", "l": "lead response time" },
+      { "v": "7 days", "l": "to full rollout" },
+      { "v": "14 days", "l": "pilot with your CRM" }
+    ],
+    "problem": {
+      "title": "Does this sound familiar?",
+      "items": [
+        { "t": "Leads lost from Otodom and OLX", "d": "In the daily chaos enquiries vanish in the inbox, and clients go to a competitor." },
+        { "t": "Duplicates that paralyze the team", "d": "The same client three times in the database. Agents call the same people and waste time." },
+        { "t": "Replies after two hours", "d": "By the time you reply, the client has booked a viewing with another agency." },
+        { "t": "Retyping data by hand", "d": "Copying from portals into the CRM takes hours, and mistakes are inevitable." }
+      ]
+    },
+    "solution": {
+      "title": "The first minutes decide everything",
+      "lead": "SmartEstates does in a few seconds what a team does by hand in a few hours.",
+      "items": [
+        { "t": "Picks up the portal lead", "d": "Within 3 seconds of the enquiry." },
+        { "t": "Checks duplicates", "d": "All entries for one client merge into a single record." },
+        { "t": "Assesses the client's potential", "d": "AI analyzes budget and location." },
+        { "t": "Sends a personalized SMS", "d": "The client feels looked after at once." },
+        { "t": "Assigns it to an agent", "d": "Automatic rotation, no conflicts in the team." },
+        { "t": "Saves it in the CRM", "d": "Full automation, no copy-pasting." }
+      ]
+    },
+    "steps": {
+      "title": "How we start",
+      "items": [
+        { "t": "A live demo", "d": "A 30-minute presentation on your real data." },
+        { "t": "A 14-day pilot", "d": "Setup with your CRM. You compare results and decide." },
+        { "t": "Full rollout", "d": "Your own server, integration and training. Ready in 7 days." }
+      ]
+    },
+    "benefits": {
+      "title": "What SmartEstates changes",
+      "items": [
+        { "t": "Your data is your property", "d": "It runs on your own server, with no outside clouds and full control." },
+        { "t": "An autoresponder that sounds human", "d": "Personalized messages within seconds of the enquiry." },
+        { "t": "Data enrichment", "d": "From messy emails it pulls name, phone, budget and a link to the listing." },
+        { "t": "A fair split of leads", "d": "Automatic rotation between agents." },
+        { "t": "Monitoring 24/7", "d": "The system scans for opportunities and flags a “HOT DEAL” before your competitors." },
+        { "t": "Price drop alerts", "d": "An automatic SMS when a listing gets cheaper, and the client comes back to the conversation." }
+      ]
+    },
+    "faq": [],
+    "cta": {
+      "title": "How many clients did you lose last week by replying too late?",
+      "text": "Book a free demo. In 30 minutes we will show SmartEstates on your real data."
+    }
+  }
+}
