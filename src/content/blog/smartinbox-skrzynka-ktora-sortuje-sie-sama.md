@@ -60,7 +60,7 @@ Bez wymiany systemów, bez migracji poczty, bez wielodniowych szkoleń.
 
 ## Ile to kosztuje
 
-Wdrożenie wyceniamy po rozmowie, bo zależy od zakresu. Orientacyjną cenę „od" zobaczysz na [karcie SmartInbox](/#rozwiazania) na stronie głównej. Według opisu rozwiązania utrzymanie AI to około 50-100 zł miesięcznie, rozliczane bezpośrednio u dostawców API.
+Wdrożenie wyceniamy po rozmowie, bo zależy od zakresu.
 
 ## Można rozbudować
 

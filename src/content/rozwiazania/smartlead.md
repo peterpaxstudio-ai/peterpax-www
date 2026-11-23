@@ -8,7 +8,6 @@ problem: { pl: "Zapytania z formularza, Facebooka i telefonu rozjeżdżają się
 jak: { pl: "Każde zapytanie ląduje w jednym miejscu i dostaje szybką odpowiedź.", en: "Every enquiry lands in one place and gets a quick reply." }
 efekt: { pl: "Więcej zapytań zamienia się w rozmowy.", en: "More enquiries turn into conversations." }
 wdrozenie: { pl: "3 dni", en: "3 days" }
-cenaOd: 690
 opisUrl: ""
 przyklad: true
 draft: false

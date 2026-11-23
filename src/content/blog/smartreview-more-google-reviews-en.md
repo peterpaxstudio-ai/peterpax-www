@@ -54,7 +54,7 @@ An example from one rollout, Standard plan, according to data on the solution's 
 - **Standard:** for businesses that want to actively collect reviews. Up to 3 profiles, an AI assistant with reply suggestions, SMS and email campaigns, trend analysis.
 - **Pro:** for chains and agencies. Up to 15 profiles, full AI autopilot, CRM and POS integrations, multiple user roles.
 
-You will find current monthly prices and the scope of each plan on the [SmartReview page](https://peterpax.pl/smartreview/) (in Polish). An indicative "from" price is also shown on the [SmartReview card](/en/#rozwiazania) on the home page.
+You will find current monthly prices and the scope of each plan on the [SmartReview page](https://peterpax.pl/smartreview/) (in Polish).
 
 ## Frequently asked questions
 

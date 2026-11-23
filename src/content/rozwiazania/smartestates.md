@@ -8,7 +8,6 @@ problem: { pl: "Zapytania z Otodom i OLX toną w skrzynce, a klient trafia do ag
 jak: { pl: "System odbiera lead, sprawdza duplikaty, wysyła SMS, przypisuje go agentowi i zapisuje w CRM.", en: "The system picks up the lead, checks for duplicates, sends an SMS, assigns it to an agent and saves it in the CRM." }
 efekt: { pl: "Odpowiedź w kilka sekund zamiast po kilku godzinach.", en: "A reply within seconds instead of hours." }
 wdrozenie: { pl: "7 dni", en: "7 days" }
-cenaOd: 1990
 opisUrl: "https://peterpax.pl/real-estate/"
 draft: false
 ---

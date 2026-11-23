@@ -8,7 +8,6 @@ problem: { pl: "Te same pytania klientów wracają codziennie.", en: "The same c
 jak: { pl: "Najczęstsze pytania dostają odpowiedź od razu, resztę przekazujemy Tobie.", en: "Common questions get an instant answer, the rest is passed on to you." }
 efekt: { pl: "Spokojniejszy telefon i skrzynka.", en: "A calmer phone and inbox." }
 wdrozenie: { pl: "5 dni", en: "5 days" }
-cenaOd: 990
 opisUrl: ""
 przyklad: true
 draft: false
