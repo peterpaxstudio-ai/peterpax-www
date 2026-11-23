@@ -86,4 +86,4 @@ Do audytu możesz wysłać maile zanonimizowane. Szczegóły dostępu i przetwar
 
 ## Zacznij od rozmowy
 
-[Umów rozmowę](https://calendar.app.google/eyg4dWm3nMRrRYoz9) albo zobacz [pełny opis SmartInbox](https://peterpax.pl/smartinbox/). Jeśli ciekawi Cię, co AI potrafi dziś w skrzynce Gmail, przeczytaj nasz wpis [Gmail z Gemini: co AI w skrzynce zmienia dla małej firmy](/blog/gmail-gemini-ai-w-skrzynce/).
+[Umów rozmowę](https://calendar.app.google/eyg4dWm3nMRrRYoz9) albo zobacz [pełny opis SmartInbox](/rozwiazania/smartinbox/). Jeśli ciekawi Cię, co AI potrafi dziś w skrzynce Gmail, przeczytaj nasz wpis [Gmail z Gemini: co AI w skrzynce zmienia dla małej firmy](/blog/gmail-gemini-ai-w-skrzynce/).

@@ -86,4 +86,4 @@ For the audit you can send anonymized emails. We go through the details of acces
 
 ## Start with a conversation
 
-[Book a call](https://calendar.app.google/eyg4dWm3nMRrRYoz9) or see the [full SmartInbox description](https://peterpax.pl/smartinbox/) (in Polish). If you are curious what AI can do in a Gmail inbox today, read our post [Gmail with Gemini: what AI in the inbox means for a small firm](/en/blog/gmail-gemini-ai-inbox-en/).
+[Book a call](https://calendar.app.google/eyg4dWm3nMRrRYoz9) or see the [full SmartInbox description](/en/solutions/smartinbox/). If you are curious what AI can do in a Gmail inbox today, read our post [Gmail with Gemini: what AI in the inbox means for a small firm](/en/blog/gmail-gemini-ai-inbox-en/).

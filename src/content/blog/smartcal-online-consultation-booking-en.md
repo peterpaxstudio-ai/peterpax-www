@@ -40,7 +40,7 @@ SmartCal is automatic consultation booking for law firms and other businesses th
 - **Full:** everything from Starter and Routing plus one extension module of your choice: SMS reminders, cancellation or rescheduling, or CRM integration.
 - **Add-ons for any plan:** SMS reminders a day before the consultation (the client can confirm or cancel by replying), a link in the confirmation email to cancel or reschedule without phoning, and a booking log in a Google Sheet.
 
-You will find current prices and plan details on the [SmartCal page](https://peterpax.pl/smartcal/) (in Polish).
+You will find the details of each plan on the [SmartCal page](/en/solutions/smartcal/). We quote the price after a call, depending on the number of specialists and consultation topics.
 
 ## Who it is for
 
@@ -79,4 +79,4 @@ According to the solution's description, one working day.
 
 We will show SmartCal in action, from the client's view to the event in your Google Calendar, in a free 20-minute demo with no obligation.
 
-[Book a call](https://calendar.app.google/eyg4dWm3nMRrRYoz9) or see the [full SmartCal description](https://peterpax.pl/smartcal/) (in Polish). If you are curious what Gemini can do in Gmail and Calendar today, read [AI and scheduling: what Gemini can do in Gmail and Calendar](/en/blog/ai-and-scheduling-gemini-gmail-calendar-en/).
+[Book a call](https://calendar.app.google/eyg4dWm3nMRrRYoz9) or see the [full SmartCal description](/en/solutions/smartcal/). If you are curious what Gemini can do in Gmail and Calendar today, read [AI and scheduling: what Gemini can do in Gmail and Calendar](/en/blog/ai-and-scheduling-gemini-gmail-calendar-en/).
