@@ -2,6 +2,7 @@
 title: "SmartStock: a warehouse under control, orders on Telegram"
 description: "SmartStock turns paper slips and phone calls into one order with a Telegram notification and automatic stock updates. Setup in up to 7 days."
 lang: en
+alt: smartstock-magazyn-pod-kontrola
 pubDate: 2026-12-10
 tags: [SmartStock, warehouse, Smart]
 draft: false

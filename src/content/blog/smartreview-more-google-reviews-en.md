@@ -2,6 +2,7 @@
 title: "SmartReview: more Google reviews and a reply to every one"
 description: "SmartReview asks clients for a Google review and drafts a reply to every one. You approve what goes public. Connected in about 5 minutes."
 lang: en
+alt: smartreview-wiecej-opinii-w-google
 pubDate: 2026-11-26
 tags: [SmartReview, reviews, Smart]
 draft: false

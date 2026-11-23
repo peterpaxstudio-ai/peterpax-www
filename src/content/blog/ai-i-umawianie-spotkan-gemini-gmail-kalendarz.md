@@ -2,6 +2,7 @@
 title: "AI i umawianie spotkań: co Gemini potrafi w Gmailu i Kalendarzu"
 description: "Gemini podpowiada terminy w Gmailu i Kalendarzu Google. Sprawdzamy, co to daje przy umawianiu spotkań i czego nadal nie robi za Ciebie."
 lang: pl
+alt: ai-and-scheduling-gemini-gmail-calendar-en
 pubDate: 2026-12-01
 tags: [AI, kalendarz, rezerwacje]
 draft: false

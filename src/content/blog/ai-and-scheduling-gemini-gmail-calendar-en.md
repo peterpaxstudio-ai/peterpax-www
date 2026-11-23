@@ -2,6 +2,7 @@
 title: "AI and scheduling: what Gemini can do in Gmail and Calendar"
 description: "Gemini suggests free times in Gmail and Google Calendar. Here is what that gives you when arranging meetings and what it still does not do for you."
 lang: en
+alt: ai-i-umawianie-spotkan-gemini-gmail-kalendarz
 pubDate: 2026-12-01
 tags: [AI, calendar, booking]
 draft: false

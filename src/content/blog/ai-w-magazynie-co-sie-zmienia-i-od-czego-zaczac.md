@@ -2,6 +2,7 @@
 title: "AI w magazynie: co się zmienia i od czego zacząć"
 description: "Systemy magazynowe zyskują funkcje AI, ale eksperci radzą zacząć od procesów i danych. Co to znaczy dla małej firmy i od czego zacząć."
 lang: pl
+alt: ai-in-the-warehouse-what-changes-en
 pubDate: 2026-12-08
 tags: [AI, magazyn, automatyzacja]
 draft: false

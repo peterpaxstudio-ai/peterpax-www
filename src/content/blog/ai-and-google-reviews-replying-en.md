@@ -2,6 +2,7 @@
 title: "AI and Google reviews: what changed in replying to them"
 description: "Google is testing suggested review replies and connecting Gemini to your business profile. What it means for a small business owner and what to watch for."
 lang: en
+alt: ai-i-opinie-w-google-odpowiadanie-na-recenzje
 pubDate: 2026-11-24
 tags: [AI, reviews, Google]
 draft: false

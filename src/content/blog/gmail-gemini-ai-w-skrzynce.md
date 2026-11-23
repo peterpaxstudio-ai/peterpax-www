@@ -2,6 +2,7 @@
 title: "Gmail z Gemini: co AI w skrzynce zmienia dla małej firmy"
 description: "Google dodał do Gmaila podsumowania, AI Inbox i sugestie odpowiedzi. Sprawdzamy, co to daje małej firmie i czego te funkcje nie załatwią."
 lang: pl
+alt: gmail-gemini-ai-inbox-en
 pubDate: 2026-11-18
 tags: [AI, poczta, automatyzacja]
 draft: false

@@ -2,6 +2,7 @@
 title: "SmartInbox: a business inbox that sorts itself"
 description: "SmartInbox reads every email, sets its priority, files it and prepares a draft reply. Up and running in about 2 days, without changing your email."
 lang: en
+alt: smartinbox-skrzynka-ktora-sortuje-sie-sama
 pubDate: 2026-11-18
 tags: [SmartInbox, email, Smart]
 draft: false

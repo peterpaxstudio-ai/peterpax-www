@@ -46,6 +46,11 @@ export const ui = {
     reply: 'Odpowiadamy w ciągu jednego dnia roboczego.',
     blogTitle: 'Blog',
     blogEmpty: 'Pierwsze wpisy już wkrótce.',
+    blog: {
+      home: 'Strona główna', by: 'Autor', published: 'Opublikowano', updated: 'Zaktualizowano', read: 'min czytania',
+      jobTitle: 'Właściciel firmy Peter Pax', aboutTitle: 'O autorze', aboutLink: 'Więcej o autorze', related: 'Czytaj dalej',
+      bio: 'Piotr Gancarz prowadzi firmę Peter Pax w Brzegu. Zajmuje się automatyzacją procesów, stronami internetowymi i marketingiem dla małych firm, pracując zdalnie z klientami w całej Polsce.',
+    },
   },
   en: {
     nav: { solutions: 'Solutions', about: 'About', blog: 'Blog', contact: 'Contact' },
@@ -82,5 +87,10 @@ export const ui = {
     reply: 'We reply within one business day.',
     blogTitle: 'Blog',
     blogEmpty: 'First posts coming soon.',
+    blog: {
+      home: 'Home', by: 'By', published: 'Published', updated: 'Updated', read: 'min read',
+      jobTitle: 'Owner of Peter Pax', aboutTitle: 'About the author', aboutLink: 'More about the author', related: 'Keep reading',
+      bio: 'Piotr Gancarz runs Peter Pax in Brzeg, Poland. He builds process automation, websites and marketing for small businesses and works remotely with clients across Poland.',
+    },
   },
 } as const;

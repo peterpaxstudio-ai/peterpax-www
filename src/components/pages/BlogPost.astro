@@ -1,15 +1,153 @@
 ---
-import { render, type CollectionEntry } from 'astro:content';
+import { getCollection, render, type CollectionEntry } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import { paths, type Lang } from '../../i18n/ui';
+import firma from '../../data/firma.json';
+import { ui, paths, type Lang } from '../../i18n/ui';
 
-interface Props { lang: Lang; post: CollectionEntry<'blog'>; }
+interface Props {
+  lang: Lang;
+  post: CollectionEntry<'blog'>;
+}
 const { lang, post } = Astro.props;
+const t = ui[lang];
+const p = paths[lang];
+const d = post.data;
 const { Content } = await render(post);
+
+const site = Astro.site!.origin;
+const blogBase = lang === 'pl' ? '/blog/' : '/en/blog/';
+const altBlogBase = lang === 'pl' ? '/en/blog/' : '/blog/';
+const altPath = d.alt ? `${altBlogBase}${d.alt}/` : altBlogBase;
+const url = new URL(`${blogBase}${post.id}/`, Astro.site).href;
+const author = d.author ?? firma.wlasciciel;
+const authorUrl = new URL(p.about, Astro.site).href;
+const orgId = `${site}/#organization`;
+
+const body = (post.body ?? '').replace(/\r\n/g, '\n');
+const words = body.split(/\s+/).filter(Boolean).length;
+const minutes = Math.max(1, Math.round(words / 200));
+const fmt = new Intl.DateTimeFormat(lang === 'pl' ? 'pl-PL' : 'en-GB', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+  timeZone: 'UTC',
+});
+const published = fmt.format(d.pubDate);
+const modified = d.updatedDate ? fmt.format(d.updatedDate) : null;
+
+// FAQ do danych strukturalnych: pytania w pogrubieniu, odpowiedź w następnej linii, w sekcji FAQ.
+function extractFaq(md: string) {
+  const heading = lang === 'pl' ? '## Najczęstsze pytania' : '## Frequently asked questions';
+  const i = md.indexOf(heading);
+  if (i < 0) return [];
+  const rest = md.slice(i + heading.length);
+  const end = rest.search(/\n## /);
+  const section = end < 0 ? rest : rest.slice(0, end);
+  const clean = (s: string) =>
+    s.replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/[*_`]/g, '').replace(/\s+/g, ' ').trim();
+  const out: { q: string; a: string }[] = [];
+  const re = /\*\*([^*\n]+)\*\*\s*\n((?:(?!\*\*)[^\n]+\n?)+)/g;
+  let m;
+  while ((m = re.exec(section))) out.push({ q: clean(m[1]), a: clean(m[2]) });
+  return out;
+}
+const faq = extractFaq(body);
+
+const personLd = {
+  '@type': 'Person',
+  '@id': `${site}/#piotr-gancarz`,
+  name: author,
+  url: authorUrl,
+  jobTitle: t.blog.jobTitle,
+  worksFor: { '@id': orgId },
+  sameAs: [firma.linkedin],
+};
+const ld: Record<string, unknown>[] = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: d.title,
+    description: d.description,
+    inLanguage: lang,
+    url,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+    datePublished: d.pubDate.toISOString(),
+    dateModified: (d.updatedDate ?? d.pubDate).toISOString(),
+    wordCount: words,
+    keywords: d.tags.join(', '),
+    image: `${site}/logo-light.png`,
+    author: personLd,
+    publisher: { '@type': 'Organization', '@id': orgId, name: firma.marka, sameAs: [firma.linkedinFirma, firma.facebook], logo: { '@type': 'ImageObject', url: `${site}/logo-light.png` } },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: t.blog.home, item: new URL(p.home, Astro.site).href },
+      { '@type': 'ListItem', position: 2, name: t.blogTitle, item: new URL(p.blog, Astro.site).href },
+      { '@type': 'ListItem', position: 3, name: d.title, item: url },
+    ],
+  },
+];
+if (faq.length > 0) {
+  ld.push({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  });
+}
+
+const now = new Date();
+const related = (await getCollection('blog'))
+  .filter((x) => !x.data.draft && x.data.lang === lang && x.id !== post.id && x.data.pubDate <= now)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
 ---
-<Base title={post.data.title} description={post.data.description} lang={lang} altPath={lang === 'pl' ? paths.en.blog : paths.pl.blog}>
-  <article class="page prose">
-    <h1>{post.data.title}</h1>
-    <Content />
+<Base title={d.title} description={d.description} lang={lang} altPath={altPath} ogType="article">
+  <Fragment slot="head">
+    <meta property="article:published_time" content={d.pubDate.toISOString()} />
+    <meta property="article:modified_time" content={(d.updatedDate ?? d.pubDate).toISOString()} />
+    <meta property="article:author" content={author} />
+    {d.tags.map((tag) => <meta property="article:tag" content={tag} />)}
+    {ld.map((o) => <script type="application/ld+json" set:html={JSON.stringify(o)} />)}
+  </Fragment>
+
+  <article class="page prose" itemscope itemtype="https://schema.org/BlogPosting">
+    <nav class="crumbs post-crumbs" aria-label="Breadcrumb">
+      <a href={p.home}>{t.blog.home}</a> / <a href={p.blog}>{t.blogTitle}</a>
+    </nav>
+    <h1 itemprop="headline">{d.title}</h1>
+    <p class="post-meta">
+      <span>{t.blog.by} <a href={authorUrl} rel="author">{author}</a></span>
+      <span>{t.blog.published} <time datetime={d.pubDate.toISOString().slice(0, 10)} itemprop="datePublished">{published}</time></span>
+      {modified && <span>{t.blog.updated} <time datetime={d.updatedDate!.toISOString().slice(0, 10)} itemprop="dateModified">{modified}</time></span>}
+      <span>{minutes} {t.blog.read}</span>
+    </p>
+
+    <div itemprop="articleBody"><Content /></div>
+
+    <aside class="author-box" aria-label={t.blog.aboutTitle}>
+      <b>{t.blog.aboutTitle}: {author}</b>
+      <p>{t.blog.bio}</p>
+      <a class="more" href={authorUrl}>{t.blog.aboutLink} →</a>
+    </aside>
+
+    {related.length > 0 && (
+      <section class="related" aria-labelledby="related-title">
+        <h2 id="related-title">{t.blog.related}</h2>
+        <ul>
+          {related.map((r) => (
+            <li>
+              <a href={`${blogBase}${r.id}/`}>{r.data.title}</a>
+              <time datetime={r.data.pubDate.toISOString().slice(0, 10)}>{fmt.format(r.data.pubDate)}</time>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
   </article>
 </Base>

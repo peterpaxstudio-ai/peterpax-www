@@ -2,6 +2,7 @@
 title: "SmartCal: rezerwacja konsultacji online bez telefonu, 24/7"
 description: "SmartCal pozwala klientom samodzielnie rezerwować konsultacje w Twoim kalendarzu Google o każdej porze. Wdrożenie w jeden dzień roboczy."
 lang: pl
+alt: smartcal-online-consultation-booking-en
 pubDate: 2026-12-03
 tags: [SmartCal, rezerwacje, Smart]
 draft: false
