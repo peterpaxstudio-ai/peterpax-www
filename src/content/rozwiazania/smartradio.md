@@ -8,7 +8,6 @@ problem: { pl: "Redakcja radia przepisuje dedykacje z Facebooka i WhatsAppa i r�
 jak: { pl: "Dedykacje trafiają do jednej kolejki, komunikaty prasowe zamieniają się w szkice newsów, a redakcja tylko zatwierdza.", en: "Dedications land in one queue, press releases turn into news drafts, and the team only approves." }
 efekt: { pl: "Nic nie wychodzi bez człowieka, a redakcja wraca do pracy radiowej.", en: "Nothing goes out without a human, and the team gets back to real radio work." }
 wdrozenie: { pl: "7 dni", en: "7 days" }
-cenaOd: 1490
 opisUrl: "https://peterpax.pl/radio/"
 draft: false
 ---

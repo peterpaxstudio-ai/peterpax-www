@@ -40,7 +40,7 @@ SmartCal is automatic consultation booking for law firms and other businesses th
 - **Full:** everything from Starter and Routing plus one extension module of your choice: SMS reminders, cancellation or rescheduling, or CRM integration.
 - **Add-ons for any plan:** SMS reminders a day before the consultation (the client can confirm or cancel by replying), a link in the confirmation email to cancel or reschedule without phoning, and a booking log in a Google Sheet.
 
-You will find current prices and plan details on the [SmartCal page](https://peterpax.pl/smartcal/) (in Polish). An indicative "from" price is also shown on the [SmartCal card](/en/#rozwiazania) on the home page.
+You will find current prices and plan details on the [SmartCal page](https://peterpax.pl/smartcal/) (in Polish).
 
 ## Who it is for
 

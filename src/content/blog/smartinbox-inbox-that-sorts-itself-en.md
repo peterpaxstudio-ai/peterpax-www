@@ -60,7 +60,7 @@ No system replacement, no email migration, no week-long training.
 
 ## What it costs
 
-We quote the setup after a call, because it depends on scope. You will see an indicative "from" price on the [SmartInbox card](/en/#rozwiazania) on the home page. According to the solution's description, running the AI costs about 50-100 PLN a month, billed directly by API providers.
+We quote the setup after a call, because it depends on scope.
 
 ## You can extend it
 

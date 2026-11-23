@@ -40,7 +40,7 @@ SmartCal to automatyczna rezerwacja konsultacji dla kancelarii i innych firm, kt
 - **Full:** wszystko ze Starter i Routing oraz jeden moduł rozszerzający do wyboru: przypomnienia SMS, możliwość anulowania lub przełożenia terminu albo integracja z CRM.
 - **Dodatki do każdego pakietu:** przypomnienia SMS dzień przed konsultacją (klient może potwierdzić lub odwołać odpowiedzią), link w e-mailu do anulowania lub przełożenia terminu bez dzwonienia oraz log rezerwacji w arkuszu Google.
 
-Aktualne ceny i szczegóły pakietów znajdziesz na [stronie SmartCal](https://peterpax.pl/smartcal/). Orientacyjną cenę „od" widać też na [karcie SmartCal](/#rozwiazania) na stronie głównej.
+Aktualne ceny i szczegóły pakietów znajdziesz na [stronie SmartCal](https://peterpax.pl/smartcal/).
 
 ## Dla kogo to jest
 

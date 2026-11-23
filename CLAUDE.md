@@ -15,7 +15,7 @@ Zbudowana w Astro. Treści edytujesz Ty (agent), człowiek zatwierdza Pull Reque
 - Jeden plik `.md` = jedno rozwiązanie, nazwa pliku małymi literami (`smartinbox.md`).
 - Wszystkie pola tekstowe mają wersję `pl` i `en`. Zawsze uzupełniaj obie.
 - `nazwa` zaczyna się od `Smart` (np. `SmartInbox`). `kolor`: sun, sage, sky lub rose. `litera`: jedna wielka litera.
-- `cenaOd` to liczba całkowita bez waluty. Wartość podaje człowiek, nie zgaduj jej.
+- Karty nie pokazują cen i schemat nie ma pola z ceną. Nie dodawaj cen do kart ani wpisów, chyba że zadanie mówi inaczej (ceny podaje człowiek, nie zgaduj ich).
 - `opisUrl`: link do opisu rozwiązania na zewnętrznej stronie. Pusty = na karcie "Opis wkrótce".
 - Nie opisuj narzędzi technicznych (n8n, Make, API). Opisuj problem i efekt dla klienta.
 - Teksty krótkie: problem, jak, efekt maks. 2 zdania.

@@ -1,5 +1,4 @@
 ---
-import firma from '../data/firma.json';
 import { ui, type Lang } from '../i18n/ui';
 import type { CollectionEntry } from 'astro:content';
 
@@ -29,7 +28,6 @@ const n = d.nazwa.replace('Smart', '');
   <div class="meta">
     <div>
       <span><small>{t.setup}</small><strong>{d.wdrozenie[lang]}</strong></span>
-      <span><small>{t.from}</small><strong>{d.cenaOd} {firma.waluta[lang]}</strong></span>
     </div>
     {d.opisUrl
       ? <a class="more" href={d.opisUrl} target="_blank" rel="noopener">{t.more} →</a>

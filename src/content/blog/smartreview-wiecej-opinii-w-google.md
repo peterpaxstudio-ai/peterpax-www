@@ -54,7 +54,7 @@ Przykład z jednego wdrożenia, pakiet Standard, według danych ze strony opisow
 - **Standard:** dla firm, które chcą aktywnie zdobywać opinie. Do 3 wizytówek, asystent AI z propozycjami odpowiedzi, kampanie SMS i e-mail, analiza trendów.
 - **Pro:** dla sieci i agencji. Do 15 wizytówek, pełny autopilot AI, integracje CRM i POS, wiele ról użytkowników.
 
-Aktualne ceny miesięczne i zakres każdego pakietu znajdziesz na [stronie SmartReview](https://peterpax.pl/smartreview/). Orientacyjną cenę „od" widać też na [karcie SmartReview](/#rozwiazania) na stronie głównej.
+Aktualne ceny miesięczne i zakres każdego pakietu znajdziesz na [stronie SmartReview](https://peterpax.pl/smartreview/).
 
 ## Najczęstsze pytania
 
