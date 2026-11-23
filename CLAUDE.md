@@ -26,6 +26,9 @@ Zbudowana w Astro. Treści edytujesz Ty (agent), człowiek zatwierdza Pull Reque
 - Treść bierz z opisu rozwiązania (strony na peterpax.pl lub materiałów od Piotra), nie wymyślaj. Bez cen, kwot, nazw narzędzi technicznych (n8n, GPT) i opinii klientów.
 - Karta w `rozwiazania` automatycznie prowadzi do strony opisowej, gdy istnieje plik o tej samej nazwie. Strony: `/rozwiazania/<nazwa>/` (PL) i `/en/solutions/<nazwa>/` (EN).
 
+## llms.txt
+- `/llms.txt` generuje się automatycznie przy buildzie (`src/pages/llms.txt.ts`) z kart, stron opisowych i opublikowanych wpisów. Nie edytuj go ręcznie i nie dodawaj do niego cen.
+
 ## Blog (`src/content/blog/`)
 - Pole `lang`: `pl` albo `en`. Wersja EN to osobny plik, zwykle z końcówką `-en` w nazwie.
 - Pole `alt`: nazwa pliku (bez `.md`) wersji w drugim języku, ustawiaj w obu plikach pary. Dzięki niemu działają tagi hreflang i przełącznik języka.
