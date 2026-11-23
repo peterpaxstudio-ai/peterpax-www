@@ -40,7 +40,7 @@ SmartCal to automatyczna rezerwacja konsultacji dla kancelarii i innych firm, kt
 - **Full:** wszystko ze Starter i Routing oraz jeden moduł rozszerzający do wyboru: przypomnienia SMS, możliwość anulowania lub przełożenia terminu albo integracja z CRM.
 - **Dodatki do każdego pakietu:** przypomnienia SMS dzień przed konsultacją (klient może potwierdzić lub odwołać odpowiedzią), link w e-mailu do anulowania lub przełożenia terminu bez dzwonienia oraz log rezerwacji w arkuszu Google.
 
-Aktualne ceny i szczegóły pakietów znajdziesz na [stronie SmartCal](https://peterpax.pl/smartcal/).
+Szczegóły pakietów znajdziesz na [stronie SmartCal](/rozwiazania/smartcal/). Wycenę ustalamy po rozmowie, zależnie od liczby specjalistów i tematów konsultacji.
 
 ## Dla kogo to jest
 
@@ -79,4 +79,4 @@ Według opisu rozwiązania jeden dzień roboczy.
 
 Pokażemy SmartCal w działaniu, od widoku klienta do wydarzenia w Twoim kalendarzu Google, na bezpłatnym 20-minutowym demo, bez zobowiązań.
 
-[Umów rozmowę](https://calendar.app.google/eyg4dWm3nMRrRYoz9) albo zobacz [pełny opis SmartCal](https://peterpax.pl/smartcal/). Jeśli ciekawi Cię, co Gemini potrafi dziś w Gmailu i Kalendarzu, przeczytaj wpis [AI i umawianie spotkań: co Gemini potrafi w Gmailu i Kalendarzu](/blog/ai-i-umawianie-spotkan-gemini-gmail-kalendarz/).
+[Umów rozmowę](https://calendar.app.google/eyg4dWm3nMRrRYoz9) albo zobacz [pełny opis SmartCal](/rozwiazania/smartcal/). Jeśli ciekawi Cię, co Gemini potrafi dziś w Gmailu i Kalendarzu, przeczytaj wpis [AI i umawianie spotkań: co Gemini potrafi w Gmailu i Kalendarzu](/blog/ai-i-umawianie-spotkan-gemini-gmail-kalendarz/).

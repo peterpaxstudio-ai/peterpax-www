@@ -54,7 +54,7 @@ Przykład z jednego wdrożenia, pakiet Standard, według danych ze strony opisow
 - **Standard:** dla firm, które chcą aktywnie zdobywać opinie. Do 3 wizytówek, asystent AI z propozycjami odpowiedzi, kampanie SMS i e-mail, analiza trendów.
 - **Pro:** dla sieci i agencji. Do 15 wizytówek, pełny autopilot AI, integracje CRM i POS, wiele ról użytkowników.
 
-Aktualne ceny miesięczne i zakres każdego pakietu znajdziesz na [stronie SmartReview](https://peterpax.pl/smartreview/).
+Zakres każdego pakietu znajdziesz na [stronie SmartReview](/rozwiazania/smartreview/). Wycenę ustalamy po rozmowie.
 
 ## Najczęstsze pytania
 
@@ -71,4 +71,4 @@ Tak, przy planie miesięcznym bez okresu wypowiedzenia.
 
 Pokażemy, jak SmartReview obsłużyłby Twoją najnowszą opinię, na żywo, w 3 minuty, na Twojej własnej wizytówce Google. Bez zobowiązań.
 
-[Umów rozmowę](https://calendar.app.google/eyg4dWm3nMRrRYoz9) albo zobacz [pełny opis SmartReview](https://peterpax.pl/smartreview/). Jeśli chcesz wiedzieć, co AI od Google robi dziś z opiniami, przeczytaj wpis [AI i opinie w Google: co się zmieniło w odpowiadaniu na recenzje](/blog/ai-i-opinie-w-google-odpowiadanie-na-recenzje/).
+[Umów rozmowę](https://calendar.app.google/eyg4dWm3nMRrRYoz9) albo zobacz [pełny opis SmartReview](/rozwiazania/smartreview/). Jeśli chcesz wiedzieć, co AI od Google robi dziś z opiniami, przeczytaj wpis [AI i opinie w Google: co się zmieniło w odpowiadaniu na recenzje](/blog/ai-i-opinie-w-google-odpowiadanie-na-recenzje/).

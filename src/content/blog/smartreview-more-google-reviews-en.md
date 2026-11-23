@@ -54,7 +54,7 @@ An example from one rollout, Standard plan, according to data on the solution's 
 - **Standard:** for businesses that want to actively collect reviews. Up to 3 profiles, an AI assistant with reply suggestions, SMS and email campaigns, trend analysis.
 - **Pro:** for chains and agencies. Up to 15 profiles, full AI autopilot, CRM and POS integrations, multiple user roles.
 
-You will find current monthly prices and the scope of each plan on the [SmartReview page](https://peterpax.pl/smartreview/) (in Polish).
+You will find the scope of each plan on the [SmartReview page](/en/solutions/smartreview/). We quote the price after a call.
 
 ## Frequently asked questions
 
@@ -71,4 +71,4 @@ Yes, on the monthly plan with no notice period.
 
 We will show how SmartReview would handle your latest review, live, in 3 minutes, on your own Google profile. No obligation.
 
-[Book a call](https://calendar.app.google/eyg4dWm3nMRrRYoz9) or see the [full SmartReview description](https://peterpax.pl/smartreview/) (in Polish). If you want to know what Google's own AI does with reviews today, read [AI and Google reviews: what changed in replying to them](/en/blog/ai-and-google-reviews-replying-en/).
+[Book a call](https://calendar.app.google/eyg4dWm3nMRrRYoz9) or see the [full SmartReview description](/en/solutions/smartreview/). If you want to know what Google's own AI does with reviews today, read [AI and Google reviews: what changed in replying to them](/en/blog/ai-and-google-reviews-replying-en/).
