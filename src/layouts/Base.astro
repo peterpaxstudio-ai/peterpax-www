@@ -34,6 +34,7 @@ const org = {
   taxID: firma.nip,
   address: { '@type': 'PostalAddress', streetAddress: street, addressLocality: city, addressCountry: 'PL' },
   founder: { '@type': 'Person', '@id': `${site}/#piotr-gancarz`, name: firma.wlasciciel, sameAs: [firma.linkedin] },
+  sameAs: [firma.linkedinFirma],
 };
 ---
 <!doctype html>
