@@ -77,7 +77,7 @@ const ld: Record<string, unknown>[] = [
     keywords: d.tags.join(', '),
     image: `${site}/logo-light.png`,
     author: personLd,
-    publisher: { '@type': 'Organization', '@id': orgId, name: firma.marka, sameAs: [firma.linkedinFirma], logo: { '@type': 'ImageObject', url: `${site}/logo-light.png` } },
+    publisher: { '@type': 'Organization', '@id': orgId, name: firma.marka, sameAs: [firma.linkedinFirma, firma.facebook], logo: { '@type': 'ImageObject', url: `${site}/logo-light.png` } },
   },
   {
     '@context': 'https://schema.org',
