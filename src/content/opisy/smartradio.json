@@ -1,0 +1,114 @@
+{
+  "pl": {
+    "title": "SmartRadio: redakcja radia bez przepisywania dedykacji",
+    "description": "Dedykacje, newsy i raporty dla reklamodawców przygotowują się same, a redakcja tylko zatwierdza. Rozwiązanie dla radiostacji lokalnych i internetowych.",
+    "eyebrow": "Dla małych radiostacji internetowych i lokalnych",
+    "heroTitle": "Redakcja radia nie powinna przepisywać dedykacji z Facebooka",
+    "lead": "Dedykacje, newsy i raporty dla reklamodawców przygotowują się same, a redakcja tylko zatwierdza.",
+    "facts": [
+      { "v": "30 min", "l": "bezpłatny audyt" },
+      { "v": "2 tygodnie", "l": "pilotażu na Waszych wiadomościach" },
+      { "v": "0", "l": "treści bez zatwierdzenia redakcji" }
+    ],
+    "problem": {
+      "title": "Znasz ten poniedziałek",
+      "lead": "To nie jest praca radiowa. To przepisywanie.",
+      "items": [
+        { "t": "Dedykacje z trzech stron", "d": "Przychodzą formularzem, na WhatsAppa i w komentarzach. Ktoś je zbiera, czyta, wyrzuca spam, sprawdza, czy utwór jest w bibliotece, i przekazuje prowadzącemu." },
+        { "t": "Ten sam komunikat trzy razy", "d": "Ktoś przepisuje komunikat prasowy na news, post na Facebooka i tekst do przeczytania na antenie." },
+        { "t": "Raport dla reklamodawcy", "d": "Pod koniec miesiąca składany w Excelu. Albo wcale." }
+      ]
+    },
+    "solution": {
+      "title": "Co konkretnie robimy",
+      "items": [
+        { "t": "Inbox dedykacji i próśb o utwory", "d": "Formularz, WhatsApp i Facebook trafiają do jednej kolejki. Wiadomości są sortowane (dedykacja, prośba o piosenkę, awaria, kontakt z redakcją), spam i wulgaryzmy odsiewane, a słuchacz dostaje potwierdzenie. Prowadzący dostaje gotową listę na audycję." },
+        { "t": "Z komunikatu prasowego do publikacji", "d": "Wytwórnia wysyła komunikat, a Wy dostajecie szkic newsa na stronę, post na Facebooka i Instagrama oraz 30-sekundowy tekst na antenę. Redakcja poprawia i zatwierdza. Nic nie wychodzi bez człowieka." },
+        { "t": "Raport dla reklamodawcy", "d": "Co miesiąc PDF dla klienta: jakie spoty, w jakich godzinach, ile razy. Wy sprzedajecie, system liczy. Klient widzi, za co płaci, i łatwiej odnawia umowę." },
+        { "t": "Dodatki, jeśli się przydadzą", "d": "Chart Top 10 jako gotowy content na cały tydzień, bot „co teraz gra” w WhatsAppie, codzienny quiz muzyczny, krótkie klipy z napisami z nagrań audycji." }
+      ]
+    },
+    "steps": {
+      "title": "Jak zaczynamy",
+      "items": [
+        { "t": "Audyt, 30 minut, bezpłatnie", "d": "Rozmowa o tym, jak wygląda Wasz tydzień. Dostajecie wyliczenie godzin i kosztów ręcznej pracy." },
+        { "t": "Demo na Waszych materiałach", "d": "Bierzemy Wasz ostatni news i kilka dedykacji, pokazujemy efekt." },
+        { "t": "Pilotaż, 2 tygodnie", "d": "Jeden proces, z góry ustalone kryterium sukcesu, na przykład 4 godziny tygodniowo oszczędności." },
+        { "t": "Decyzja", "d": "Działa, to przechodzimy na abonament. Nie działa, to się rozstajemy." }
+      ]
+    },
+    "benefits": {
+      "title": "Co zyskuje redakcja",
+      "items": [
+        { "t": "Redakcja wraca do pracy radiowej", "d": "Mniej przepisywania, więcej czasu na antenę." },
+        { "t": "Gotowa lista na audycję", "d": "Prowadzący dostaje posortowane dedykacje, bez spamu." },
+        { "t": "Łatwiejsze odnowienia umów", "d": "Reklamodawca widzi w raporcie, za co płaci." }
+      ]
+    },
+    "faq": [
+      { "q": "Czy coś wychodzi na antenę lub do sieci bez zatwierdzenia?", "a": "Nie. Szkice newsów, posty i teksty na antenę poprawia i zatwierdza redakcja. Nic nie wychodzi bez człowieka." },
+      { "q": "Co z danymi słuchaczy?", "a": "Dane słuchaczy przetwarzamy na podstawie umowy powierzenia (RODO)." },
+      { "q": "A jeśli to się Wam nie opłaci?", "a": "Na audycie liczymy razem: kto, ile, jak często. Jeśli wyliczenie pokaże, że rozwiązanie się nie opłaci, powiemy to wprost." }
+    ],
+    "cta": {
+      "title": "Umówmy 30 minut",
+      "text": "Napisz albo zadzwoń. Podaj nazwę radia i jedno zdanie o tym, co w redakcji zabiera najwięcej czasu. Odpowiadamy w ciągu jednego dnia roboczego."
+    }
+  },
+  "en": {
+    "title": "SmartRadio: a radio newsroom without retyping dedications",
+    "description": "Dedications, news and advertiser reports prepare themselves and the newsroom only approves. A solution for local and online radio stations.",
+    "eyebrow": "For small online and local radio stations",
+    "heroTitle": "A radio newsroom should not retype dedications from Facebook",
+    "lead": "Dedications, news and advertiser reports prepare themselves, and the newsroom only approves.",
+    "facts": [
+      { "v": "30 min", "l": "free audit" },
+      { "v": "2 weeks", "l": "pilot on your real messages" },
+      { "v": "0", "l": "items released without newsroom approval" }
+    ],
+    "problem": {
+      "title": "You know that Monday",
+      "lead": "This is not radio work. It is retyping.",
+      "items": [
+        { "t": "Dedications from three directions", "d": "They arrive by form, on WhatsApp and in comments. Someone collects them, reads them, throws out spam, checks whether the track is in the library and passes them to the presenter." },
+        { "t": "The same release three times", "d": "Someone retypes a press release into a news item, a Facebook post and a text to read on air." },
+        { "t": "The advertiser report", "d": "Put together in Excel at the end of the month. Or not at all." }
+      ]
+    },
+    "solution": {
+      "title": "What exactly we do",
+      "items": [
+        { "t": "An inbox for dedications and song requests", "d": "The form, WhatsApp and Facebook go into one queue. Messages are sorted (dedication, song request, fault, contact with the newsroom), spam and profanity are filtered out, and the listener gets a confirmation. The presenter gets a ready list for the show." },
+        { "t": "From a press release to publication", "d": "The label sends a release, and you get a draft news item for the website, a Facebook and Instagram post and a 30-second text for the air. The newsroom edits and approves. Nothing goes out without a human." },
+        { "t": "An advertiser report", "d": "Every month a PDF for the client: which spots, at what times, how many times. You sell, the system counts. The client sees what they pay for and renews more easily." },
+        { "t": "Extras, if they help", "d": "A Top 10 chart as ready content for the whole week, a “what is playing now” bot on WhatsApp, a daily music quiz, and short captioned clips cut from show recordings." }
+      ]
+    },
+    "steps": {
+      "title": "How we start",
+      "items": [
+        { "t": "An audit, 30 minutes, free", "d": "A conversation about what your week looks like. You get a calculation of the hours and cost of the manual work." },
+        { "t": "A demo on your materials", "d": "We take your latest news item and a few dedications and show the result." },
+        { "t": "A pilot, 2 weeks", "d": "One process, with a success criterion set in advance, for example 4 hours a week saved." },
+        { "t": "A decision", "d": "If it works, we move to a subscription. If it does not, we part ways." }
+      ]
+    },
+    "benefits": {
+      "title": "What the newsroom gains",
+      "items": [
+        { "t": "The newsroom returns to radio work", "d": "Less retyping, more time on air." },
+        { "t": "A ready list for the show", "d": "The presenter gets sorted dedications, without spam." },
+        { "t": "Easier contract renewals", "d": "The advertiser sees in the report what they pay for." }
+      ]
+    },
+    "faq": [
+      { "q": "Does anything go on air or online without approval?", "a": "No. Draft news items, posts and on-air texts are edited and approved by the newsroom. Nothing goes out without a human." },
+      { "q": "What about listeners' data?", "a": "We process listeners' data under a data processing agreement (GDPR)." },
+      { "q": "What if it does not pay off for you?", "a": "At the audit we calculate together: who, how much, how often. If the calculation shows that the solution will not pay off, we will say so plainly." }
+    ],
+    "cta": {
+      "title": "Let's set aside 30 minutes",
+      "text": "Write or call. Give the name of your station and one sentence about what takes the most time in the newsroom. We reply within one working day."
+    }
+  }
+}

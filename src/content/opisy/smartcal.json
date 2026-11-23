@@ -1,0 +1,156 @@
+{
+  "pl": {
+    "title": "SmartCal: rezerwacja konsultacji online bez telefonu, 24/7",
+    "description": "SmartCal pozwala klientom samodzielnie rezerwować konsultacje w Twoim kalendarzu Google o każdej porze. Wdrożenie w jeden dzień roboczy.",
+    "eyebrow": "Automatyczna rezerwacja konsultacji dla kancelarii",
+    "heroTitle": "Umawianie terminów bez telefonu i sekretariatu",
+    "lead": "Klient wybiera wolny termin w polskim formularzu, a Ty dostajesz gotowe wydarzenie w kalendarzu Google z linkiem do spotkania online.",
+    "facts": [
+      { "v": "24/7", "l": "rezerwacje bez sekretariatu" },
+      { "v": "1 dzień", "l": "roboczy na wdrożenie" },
+      { "v": "0", "l": "podwójnych rezerwacji" }
+    ],
+    "problem": {
+      "title": "Umawianie terminów pochłania czas i tworzy chaos",
+      "lead": "Kancelarie prowadzące regularne konsultacje tracą godziny miesięcznie na ręczne umawianie przez telefon, a i tak zdarzają się podwójne rezerwacje i nieobecności.",
+      "items": [
+        { "t": "Około 20 godzin miesięcznie", "d": "Według opisu rozwiązania tyle mogą pochłaniać telefony o terminy. Każda rezerwacja to 3-5 minut rozmowy, wpisywania do kalendarza i wysyłania potwierdzenia." },
+        { "t": "Podwójne rezerwacje", "d": "Dwie osoby na tym samym terminie to kłopotliwa sytuacja, a klient odchodzi z gorszym wrażeniem." },
+        { "t": "Klienci po godzinie 17", "d": "Gdy biuro jest zamknięte, klienci dzwonią wieczorami albo czekają do rana. Część rezygnuje." }
+      ]
+    },
+    "solution": {
+      "title": "Rezerwacje 24/7, bez udziału sekretariatu",
+      "lead": "Trzy elementy, które działają razem: od kliknięcia klienta do wydarzenia w kalendarzu kancelarii.",
+      "items": [
+        { "t": "Polskojęzyczny formularz rezerwacji", "d": "Klient widzi dostępne daty i godziny, wybiera termin i wypełnia formularz po polsku." },
+        { "t": "Automatyczna weryfikacja dostępności", "d": "System sprawdza Twój kalendarz Google na bieżąco. Widoczne są tylko wolne terminy, więc podwójna rezerwacja jest niemożliwa." },
+        { "t": "Potwierdzenie z linkiem do Google Meet", "d": "Klient dostaje e-mail z datą, tematem i linkiem w kilka sekund. Zespół dostaje powiadomienie z danymi klienta." }
+      ]
+    },
+    "steps": {
+      "title": "Trzy kroki, żadnych przestojów",
+      "items": [
+        { "t": "Klient wybiera termin", "d": "Wchodzi na stronę, widzi kalendarz z wolnymi datami, wybiera godzinę i wypełnia formularz. Działa całą dobę." },
+        { "t": "System rezerwuje termin", "d": "Sprawdza kalendarz, tworzy wydarzenie z danymi klienta i generuje link do Google Meet. Zajmuje to kilka sekund." },
+        { "t": "Potwierdzenia wychodzą same", "d": "Klient dostaje e-mail z linkiem, zespół powiadomienie, a wydarzenie jest gotowe w kalendarzu. Bez ręcznej pracy." }
+      ]
+    },
+    "benefits": {
+      "title": "Co zyskujesz",
+      "items": [
+        { "t": "Czas", "d": "Nikt nie odbiera telefonów w sprawie terminów ani nie wpisuje rezerwacji ręcznie." },
+        { "t": "Spokój", "d": "Koniec z podwójnymi rezerwacjami." },
+        { "t": "Klientów", "d": "Ci, którzy chcą się umówić wieczorem lub w weekend, robią to od razu zamiast rezygnować." }
+      ]
+    },
+    "extras": {
+      "title": "Zakres i dodatki",
+      "lead": "Zaczynasz od tego, czego potrzebujesz. Zakres dobieramy do liczby specjalistów i tematów konsultacji.",
+      "items": [
+        { "t": "Starter", "d": "Formularz po polsku, weryfikacja dostępności w kalendarzu Google, potwierdzenie e-mailem, link do Google Meet i powiadomienie dla zespołu." },
+        { "t": "Starter + Routing", "d": "Klient wybiera temat konsultacji (na przykład PIT, VAT, kadry) i zostaje automatycznie przydzielony do właściwego specjalisty, który dostaje osobne powiadomienie. Najczęściej wybierany przez kancelarie z dwoma lub więcej specjalistami." },
+        { "t": "Full", "d": "Wszystko ze Starter i Routing oraz jeden moduł rozszerzający do wyboru: przypomnienia SMS, anulowanie i przekładanie terminu albo integracja z CRM." },
+        { "t": "Przypomnienia SMS", "d": "SMS do klienta dzień przed konsultacją. Klient może potwierdzić lub odwołać, odpowiadając na wiadomość." },
+        { "t": "Anulowanie i przekładanie terminu", "d": "Link w e-mailu pozwala klientowi zmienić termin bez dzwonienia do sekretariatu. System sam zwalnia termin." },
+        { "t": "Log rezerwacji w arkuszu Google", "d": "Każda rezerwacja trafia do arkusza: data, klient, temat, specjalista, status." }
+      ]
+    },
+    "start": {
+      "title": "Wdrożenie w jeden dzień roboczy",
+      "lead": "Bez przestojów i bez pracy IT po Twojej stronie.",
+      "items": [
+        { "t": "Dostęp do kalendarza Google", "d": "Potrzebujemy autoryzacji OAuth2 do kalendarza kancelarii, danych poczty do wysyłania potwierdzeń i 30 minut na omówienie terminów oraz tematów konsultacji. Resztą zajmujemy się my." },
+        { "t": "Formularz na Twojej domenie", "d": "Formularz osadzamy na stronie kancelarii albo udostępniamy pod podstroną. Klient nie opuszcza Waszego środowiska." },
+        { "t": "RODO i dane klientów", "d": "Dane rezerwacji są przechowywane wyłącznie w kalendarzu Google kancelarii, bez zewnętrznych baz danych. Do formularza można dodać klauzulę RODO." }
+      ]
+    },
+    "faq": [
+      { "q": "Czy muszę zmieniać kalendarz?", "a": "Nie. SmartCal działa na Twoim kalendarzu Google, a klient widzi tylko wolne terminy." },
+      { "q": "Czy formularz będzie po polsku?", "a": "Tak, klient dostaje formularz i komunikaty po polsku." },
+      { "q": "Gdzie są dane moich klientów?", "a": "Dane rezerwacji trafiają wyłącznie do kalendarza Google Twojej firmy, bez zewnętrznych baz danych." },
+      { "q": "Ile trwa uruchomienie?", "a": "Jeden dzień roboczy, bez przestojów." }
+    ],
+    "cta": {
+      "title": "Zobacz SmartCal w akcji",
+      "text": "Umów bezpłatne 20-minutowe demo. Pokażemy SmartCal od widoku klienta do wydarzenia w Twoim kalendarzu Google. Bez zobowiązań."
+    }
+  },
+  "en": {
+    "title": "SmartCal: online consultation booking without the phone, 24/7",
+    "description": "SmartCal lets clients book consultations in your Google Calendar on their own, at any hour. Setup takes one working day.",
+    "eyebrow": "Automatic consultation booking for law firms",
+    "heroTitle": "Booking appointments without the phone and a front desk",
+    "lead": "The client picks a free slot in a Polish-language form, and you get a ready event in your Google Calendar with an online meeting link.",
+    "facts": [
+      { "v": "24/7", "l": "bookings without a front desk" },
+      { "v": "1 day", "l": "working day to set up" },
+      { "v": "0", "l": "double bookings" }
+    ],
+    "problem": {
+      "title": "Booking appointments eats time and creates chaos",
+      "lead": "Law firms that run regular consultations lose hours every month to booking by phone, and double bookings and no-shows still happen.",
+      "items": [
+        { "t": "About 20 hours a month", "d": "According to the solution's description, that is what phone calls about appointments can take. Each booking is 3-5 minutes of talking, entering it in the calendar and sending a confirmation." },
+        { "t": "Double bookings", "d": "Two people at the same time is an awkward situation, and the client leaves with a worse impression." },
+        { "t": "Clients after 5 pm", "d": "When the office is closed, clients call in the evening or wait until morning. Some give up." }
+      ]
+    },
+    "solution": {
+      "title": "Bookings 24/7, without the front desk",
+      "lead": "Three parts that work together: from the client's click to an event in the firm's calendar.",
+      "items": [
+        { "t": "A Polish-language booking form", "d": "The client sees available dates and times, picks a slot and fills in the form in Polish." },
+        { "t": "Automatic availability check", "d": "The system checks your Google Calendar in real time. Only free slots are visible, so a double booking is impossible." },
+        { "t": "Confirmation with a Google Meet link", "d": "The client gets an email with the date, topic and link within seconds. Your team gets a notification with the client's details." }
+      ]
+    },
+    "steps": {
+      "title": "Three steps, no downtime",
+      "items": [
+        { "t": "The client picks a slot", "d": "They open the page, see a calendar with free dates, choose a time and fill in the form. It works around the clock." },
+        { "t": "The system books it", "d": "It checks the calendar, creates the event with the client's details and generates a Google Meet link. It takes a few seconds." },
+        { "t": "Confirmations go out on their own", "d": "The client gets an email with the link, the team gets a notification, and the event is ready in the calendar. No manual work." }
+      ]
+    },
+    "benefits": {
+      "title": "What you gain",
+      "items": [
+        { "t": "Time", "d": "Nobody answers calls about appointments or enters bookings by hand." },
+        { "t": "Peace of mind", "d": "No more double bookings." },
+        { "t": "Clients", "d": "Those who want to book in the evening or at the weekend do it at once instead of giving up." }
+      ]
+    },
+    "extras": {
+      "title": "Scope and add-ons",
+      "lead": "You start with what you need. We match the scope to the number of specialists and consultation topics.",
+      "items": [
+        { "t": "Starter", "d": "A Polish-language form, availability check in Google Calendar, an email confirmation, a Google Meet link and a team notification." },
+        { "t": "Starter + Routing", "d": "The client picks a consultation topic (for example income tax, VAT, payroll) and is assigned automatically to the right specialist, who gets a separate notification. Most often chosen by firms with two or more specialists." },
+        { "t": "Full", "d": "Everything from Starter and Routing plus one extension module of your choice: SMS reminders, cancelling and rescheduling, or CRM integration." },
+        { "t": "SMS reminders", "d": "An SMS to the client the day before the consultation. The client can confirm or cancel by replying." },
+        { "t": "Cancelling and rescheduling", "d": "A link in the email lets the client change the time without phoning the front desk. The system frees the slot itself." },
+        { "t": "A booking log in a Google Sheet", "d": "Every booking goes into a sheet: date, client, topic, specialist, status." }
+      ]
+    },
+    "start": {
+      "title": "Setup in one working day",
+      "lead": "No downtime and no IT work on your side.",
+      "items": [
+        { "t": "Access to your Google Calendar", "d": "We need OAuth2 authorization to the firm's calendar, mail settings to send confirmations and 30 minutes to go through time slots and consultation topics. We take care of the rest." },
+        { "t": "The form on your domain", "d": "We embed the form on the firm's website or provide it on a subpage. The client never leaves your environment." },
+        { "t": "GDPR and client data", "d": "Booking data is stored only in the firm's Google Calendar, with no external databases. A GDPR clause can be added to the form." }
+      ]
+    },
+    "faq": [
+      { "q": "Do I have to change my calendar?", "a": "No. SmartCal works on your Google Calendar, and the client only sees free slots." },
+      { "q": "Will the form be in Polish?", "a": "Yes, the client gets the form and messages in Polish." },
+      { "q": "Where is my clients' data?", "a": "Booking data goes only to your company's Google Calendar, with no external databases." },
+      { "q": "How long does setup take?", "a": "One working day, with no downtime." }
+    ],
+    "cta": {
+      "title": "See SmartCal in action",
+      "text": "Book a free 20-minute demo. We will show SmartCal from the client's view to the event in your Google Calendar. No obligation."
+    }
+  }
+}

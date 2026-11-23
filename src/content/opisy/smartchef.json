@@ -1,0 +1,166 @@
+{
+  "pl": {
+    "title": "SmartChef: danie dnia i zamówienia na autopilocie",
+    "description": "Jedna lista zamówień z telefonu, Messengera i Facebooka dla lokali z daniem dnia. Bez przepisywania i bez prowizji dla aplikacji.",
+    "eyebrow": "Dla restauracji i barów z daniem dnia",
+    "heroTitle": "Zamówienia na danie dnia na autopilocie",
+    "lead": "Jedna lista zamówień z telefonu, Messengera i Facebooka. Bez przepisywania, bez nieodebranych telefonów, bez prowizji dla aplikacji.",
+    "facts": [
+      { "v": "30 s", "l": "Twojej pracy rano" },
+      { "v": "0%", "l": "prowizji od zamówień" },
+      { "v": "2 tygodnie", "l": "do startu" }
+    ],
+    "problem": {
+      "title": "Zamówienia giną między telefonem a Facebookiem",
+      "lead": "Danie dnia wrzucasz rano na Facebooka, a zamówienia przychodzą czterema drogami naraz: telefonem, Messengerem, w komentarzach i SMS-ami. Każde trzeba przepisać ręcznie.",
+      "items": [
+        { "t": "Telefon w szczycie", "d": "Między 11:00 a 14:00 ręce są zajęte kuchnią. Nieodebrany telefon to utracona sprzedaż." },
+        { "t": "Toną wiadomości", "d": "Messenger zasypuje nowe wiadomości, a zamówienie zostaje bez odpowiedzi." },
+        { "t": "Brak jednej listy", "d": "Kto, co, adres, płatność, godzina. Pomyłki wychodzą dopiero u klienta." },
+        { "t": "Danie się kończy", "d": "Ludzie dalej zamawiają, a Ty musisz odmawiać albo odwoływać." }
+      ]
+    },
+    "solution": {
+      "title": "Jedno miejsce na wszystkie zamówienia",
+      "lead": "Klient klika „Zamów” pod dzisiejszym daniem w Messengerze, a w kuchni pojawia się gotowa lista. To Twój własny kanał, a nie kolejna aplikacja z prowizją. Stali klienci są już na Twoim Facebooku, więc tam ich zostawiamy.",
+      "items": [
+        { "t": "Formularz „Danie dnia”", "d": "Danie i liczba porcji wpisywane w kilka sekund, z telefonu." },
+        { "t": "Post na Facebooku", "d": "Publikowany automatycznie z formularza." },
+        { "t": "Bot na Messengerze", "d": "Przyjmuje zamówienia i wysyła potwierdzenia." },
+        { "t": "Lista zamówień", "d": "Arkusz Google i powiadomienie w kuchni." },
+        { "t": "Limit porcji", "d": "Gdy danie się skończy, pojawia się komunikat „Na dziś wyprzedane”." },
+        { "t": "Zamówienia telefoniczne", "d": "Osoba przy barze wpisuje je do tego samego formularza, więc wszystko ląduje na jednej liście." }
+      ]
+    },
+    "steps": {
+      "title": "Twoja część to 30 sekund rano, resztę robi system",
+      "items": [
+        { "t": "Rano wpisujesz danie", "d": "Danie dnia i liczbę porcji wpisujesz w prostym formularzu na telefonie." },
+        { "t": "System publikuje post", "d": "Sam wrzuca post na Facebooka i aktualizuje bota na Messengerze." },
+        { "t": "Klient zamawia", "d": "Wybiera ilość, podaje adres i godzinę. Zamówienie trafia na wspólną listę i do kuchni jako powiadomienie, a klient od razu dostaje potwierdzenie." },
+        { "t": "Bot zamyka sprzedaż", "d": "Gdy porcje się skończą, bot odpowiada „Na dziś wyprzedane” i przestaje przyjmować zamówienia." }
+      ]
+    },
+    "benefits": {
+      "title": "Czas, sprzedaż i spokój w kuchni",
+      "items": [
+        { "t": "Mniej pomyłek", "d": "Zamówienie wpisuje klient, więc adres i ilość są takie, jak chciał." },
+        { "t": "Zero strat na porcjach", "d": "Bot zamyka sprzedaż, gdy danie się kończy." },
+        { "t": "Jedna lista", "d": "Telefon, Messenger i Facebook w jednym miejscu." },
+        { "t": "Bez nowej aplikacji", "d": "Klienci zamawiają tam, gdzie już Cię śledzą, i nie ma prowizji od zamówień." }
+      ]
+    },
+    "extras": {
+      "title": "W kolejnych etapach",
+      "lead": "Zaczynamy od tego, co daje największy efekt, a resztę dokładamy, gdy się sprawdzi.",
+      "items": [
+        { "t": "Płatność BLIK online" },
+        { "t": "Bot głosowy odbierający telefon" },
+        { "t": "Wydruk na drukarce kuchennej" },
+        { "t": "SMS-y do klientów" },
+        { "t": "Grafika generowana automatycznie" }
+      ]
+    },
+    "start": {
+      "title": "Uruchomienie w dwa tygodnie",
+      "items": [
+        { "t": "Tydzień 1", "d": "Formularz „Danie dnia”, arkusz zamówień, podpięcie strony na Facebooku i bota na Messengerze." },
+        { "t": "Tydzień 2", "d": "Testy na prawdziwych zamówieniach, krótkie szkolenie obsługi (30 minut) i start." },
+        { "t": "Czego potrzebujemy od Ciebie", "d": "Dostępu administratora do strony lokalu na Facebooku, 30 minut na ustalenie wzoru wiadomości, godzin dostawy i form płatności oraz wskazania osoby, która rano wpisuje danie dnia i pilnuje powiadomień." }
+      ]
+    },
+    "faq": [
+      { "q": "Czy muszę zmieniać sposób pracy w kuchni?", "a": "Nie. Dostajesz powiadomienie i listę zamówień. Rano poświęcasz 30 sekund na wpisanie dania dnia." },
+      { "q": "Czy klienci muszą instalować aplikację?", "a": "Nie. Zamawiają w Messengerze, z którego i tak korzystają." },
+      { "q": "A klienci, którzy wolą zadzwonić?", "a": "Zamówienie telefoniczne wpisuje osoba przy barze do tego samego formularza, więc wszystko trafia na jedną listę." },
+      { "q": "Czy płacę prowizję od zamówień?", "a": "Nie. To Twój własny kanał, bez procentu od zamówienia." },
+      { "q": "Czy jest długa umowa?", "a": "Nie. Proponujemy 30-dniowy pilot na prawdziwych zamówieniach. Jeśli nie zobaczysz mniej telefonów i mniej przepisywania, kończymy bez zobowiązań." }
+    ],
+    "cta": {
+      "title": "Zacznij od 30-dniowego pilotażu",
+      "text": "Bez długiej umowy. 30 dni na prawdziwych zamówieniach, a jeśli nie zobaczysz efektu, kończymy bez zobowiązań. Umów 20-minutową rozmowę: ustalimy wzór wiadomości, godziny dostawy i dzień startu."
+    }
+  },
+  "en": {
+    "title": "SmartChef: dish of the day and orders on autopilot",
+    "description": "One order list from phone, Messenger and Facebook for venues with a dish of the day. No retyping and no app commission.",
+    "eyebrow": "For restaurants and bars with a dish of the day",
+    "heroTitle": "Dish-of-the-day orders on autopilot",
+    "lead": "One order list from phone, Messenger and Facebook. No retyping, no missed calls, no commission to an app.",
+    "facts": [
+      { "v": "30 s", "l": "of your work in the morning" },
+      { "v": "0%", "l": "commission on orders" },
+      { "v": "2 weeks", "l": "to launch" }
+    ],
+    "problem": {
+      "title": "Orders get lost between the phone and Facebook",
+      "lead": "You post the dish of the day on Facebook in the morning, and orders arrive four ways at once: by phone, Messenger, comments and SMS. Every one has to be retyped by hand.",
+      "items": [
+        { "t": "A phone at peak time", "d": "Between 11:00 and 14:00 your hands are busy in the kitchen. A missed call is a lost sale." },
+        { "t": "Messages drown", "d": "Messenger buries new messages, and an order is left without an answer." },
+        { "t": "No single list", "d": "Who, what, address, payment, time. Mistakes only show up at the customer's door." },
+        { "t": "The dish runs out", "d": "People keep ordering, and you have to refuse or cancel." }
+      ]
+    },
+    "solution": {
+      "title": "One place for every order",
+      "lead": "The customer taps “Order” under today's dish in Messenger, and a ready list appears in the kitchen. It is your own channel, not another app that takes a commission. Regular customers are already on your Facebook, so we keep them there.",
+      "items": [
+        { "t": "“Dish of the day” form", "d": "The dish and number of portions entered in seconds, from your phone." },
+        { "t": "Facebook post", "d": "Published automatically from the form." },
+        { "t": "Messenger bot", "d": "Takes orders and sends confirmations." },
+        { "t": "Order list", "d": "A Google sheet and a notification in the kitchen." },
+        { "t": "Portion limit", "d": "When the dish runs out, the message “Sold out for today” appears." },
+        { "t": "Phone orders", "d": "Whoever is at the bar enters them in the same form, so everything lands on one list." }
+      ]
+    },
+    "steps": {
+      "title": "Your part is 30 seconds in the morning, the system does the rest",
+      "items": [
+        { "t": "In the morning you enter the dish", "d": "You type the dish of the day and number of portions in a simple form on your phone." },
+        { "t": "The system publishes the post", "d": "It posts on Facebook by itself and updates the Messenger bot." },
+        { "t": "The customer orders", "d": "They pick a quantity and give an address and time. The order lands on the shared list and in the kitchen as a notification, and the customer gets a confirmation at once." },
+        { "t": "The bot closes sales", "d": "When portions run out, the bot replies “Sold out for today” and stops taking orders." }
+      ]
+    },
+    "benefits": {
+      "title": "Time, sales and calm in the kitchen",
+      "items": [
+        { "t": "Fewer mistakes", "d": "The customer enters the order, so address and quantity are exactly what they wanted." },
+        { "t": "No waste on portions", "d": "The bot closes sales when the dish runs out." },
+        { "t": "One list", "d": "Phone, Messenger and Facebook in one place." },
+        { "t": "No new app", "d": "Customers order where they already follow you, and there is no commission on orders." }
+      ]
+    },
+    "extras": {
+      "title": "In later stages",
+      "lead": "We start with what gives the biggest effect and add the rest once it proves itself.",
+      "items": [
+        { "t": "Online BLIK payment" },
+        { "t": "A voice bot that answers the phone" },
+        { "t": "Printing on a kitchen printer" },
+        { "t": "SMS messages to customers" },
+        { "t": "Automatically generated graphics" }
+      ]
+    },
+    "start": {
+      "title": "Launch in two weeks",
+      "items": [
+        { "t": "Week 1", "d": "The “Dish of the day” form, the orders sheet, connecting your Facebook page and the Messenger bot." },
+        { "t": "Week 2", "d": "Tests on real orders, a short staff training (30 minutes) and launch." },
+        { "t": "What we need from you", "d": "Admin access to your venue's Facebook page, 30 minutes to settle the message template, delivery hours and payment methods, and someone who enters the dish in the morning and watches the kitchen notifications." }
+      ]
+    },
+    "faq": [
+      { "q": "Do I have to change how the kitchen works?", "a": "No. You get a notification and a list of orders. In the morning you spend 30 seconds entering the dish of the day." },
+      { "q": "Do customers have to install an app?", "a": "No. They order in Messenger, which they already use." },
+      { "q": "What about customers who prefer to call?", "a": "Whoever is at the bar enters a phone order in the same form, so everything lands on one list." },
+      { "q": "Do I pay a commission on orders?", "a": "No. It is your own channel, with no percentage of the order." },
+      { "q": "Is there a long contract?", "a": "No. We propose a 30-day pilot on real orders. If you do not see fewer calls and less retyping, we end it with no obligation." }
+    ],
+    "cta": {
+      "title": "Start with a 30-day pilot",
+      "text": "No long contract. 30 days on real orders, and if you do not see results, we end it with no obligation. Book a 20-minute call: we will settle the message template, delivery hours and the start date."
+    }
+  }
+}

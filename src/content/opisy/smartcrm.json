@@ -1,0 +1,148 @@
+{
+  "pl": {
+    "title": "SmartCRM: AI wpięte w CRM, który Twój zespół już zna",
+    "description": "SmartCRM to wtyczka AI do Twojego obecnego CRM: kwalifikuje leady, wysyła follow-upy i uzupełnia dane w tle, bez nowego logowania i migracji.",
+    "eyebrow": "Wtyczka AI do Twojego obecnego CRM",
+    "heroTitle": "Dodaj AI do systemu, który Twój handlowiec już zna",
+    "lead": "Nie musisz zmuszać zespołu do nauki nowego oprogramowania. Wtyczka wpięta w Wasz obecny system kwalifikuje leady, wysyła follow-upy i aktualizuje dane w tle.",
+    "facts": [
+      { "v": "5 min", "l": "instalacja wtyczki" },
+      { "v": "1 dzień", "l": "wdrożenie" },
+      { "v": "0", "l": "migracji danych i nowych logowań" }
+    ],
+    "problem": {
+      "title": "Dlaczego większość automatyzacji AI zawodzi",
+      "lead": "Tradycyjne narzędzia AI to osobna aplikacja obok Twojego CRM.",
+      "items": [
+        { "t": "Kolejny login i kolejna zakładka", "d": "Handlowcy zapominają się logować do osobnego systemu." },
+        { "t": "Ręczne przeklejanie danych", "d": "Strata czasu na przepisywanie informacji między dwoma oknami." },
+        { "t": "Długa i droga migracja", "d": "Szkolenie zespołu i opór pracowników przed nowym oprogramowaniem." }
+      ]
+    },
+    "solution": {
+      "title": "Wpinamy AI w środek Twojego CRM",
+      "lead": "Zespół pracuje tam, gdzie zawsze, tylko szybciej.",
+      "items": [
+        { "t": "Auto-kwalifikacja nowych leadów", "d": "AI ocenia przychodzące wiadomości i tworzy zadania." },
+        { "t": "Inteligentne follow-upy e-mail", "d": "Spersonalizowane przypomnienia wysyłane z Twojej skrzynki." },
+        { "t": "Uzupełnianie danych", "d": "AI samodzielnie uzupełnia pola w CRM danymi ze stron www i LinkedIn." }
+      ]
+    },
+    "steps": {
+      "title": "Wdrożenie w 3 krokach",
+      "lead": "Bez reorganizacji firmy i bez miesiąca szkoleń.",
+      "items": [
+        { "t": "Wpinasz wtyczkę w CRM", "d": "Łączysz wtyczkę z obecnym systemem za pomocą bezpiecznego klucza API. Bez migracji baz danych." },
+        { "t": "Konfigurujesz reguły AI", "d": "Określasz, jak AI ma kwalifikować wiadomości, tworzyć zadania i wysyłać follow-upy." },
+        { "t": "Zespół pracuje szybciej", "d": "Handlowcy logują się tam gdzie zawsze. Widzą uzupełnione dane, zakwalifikowane leady i gotowe wersje robocze odpowiedzi." }
+      ]
+    },
+    "benefits": {
+      "title": "Co zyskujesz",
+      "items": [
+        { "t": "Zero nauki nowych interfejsów", "d": "Zespół zna ten system od podszewki, nic się dla niego nie zmienia." },
+        { "t": "Automatyczna aktualizacja danych", "d": "AI uzupełnia pola w Twoim CRM bez ręcznej roboty." },
+        { "t": "Wdrożenie w 1 dzień", "d": "Gotowa wtyczka działa w tle, bez migracji danych." }
+      ]
+    },
+    "extras": {
+      "title": "Wpinamy się w popularne systemy CRM",
+      "items": [
+        { "t": "HubSpot" },
+        { "t": "Pipedrive" },
+        { "t": "Salesforce" },
+        { "t": "Livespace" },
+        { "t": "Własne API", "d": "Dla autorskich lub rozbudowanych systemów CRM." }
+      ]
+    },
+    "start": {
+      "title": "Jak zaczynamy",
+      "items": [
+        { "t": "Pilot na jednym lejku", "d": "Testujemy AI na jednym wybranym lejku sprzedaży i jednym koncie CRM." },
+        { "t": "Pełna automatyzacja", "d": "Gdy pilot się sprawdzi, rozszerzamy automatyzację na kolejne sekwencje i dane o klientach." },
+        { "t": "Integracja na miarę", "d": "Dla autorskich systemów przygotowujemy dedykowaną wtyczkę API." }
+      ]
+    },
+    "faq": [
+      { "q": "Czy muszę migrować dane do nowego systemu?", "a": "Nie. Wtyczka łączy się z Twoim obecnym CRM przez bezpieczny klucz API, bez migracji baz danych." },
+      { "q": "Czy zespół musi się uczyć nowego narzędzia?", "a": "Nie. Handlowcy pracują w tym samym systemie, w którym pracują dziś." }
+    ],
+    "cta": {
+      "title": "Masz już CRM? Dodajmy do niego AI",
+      "text": "Zero nowych haseł i zero oporu zespołu, tylko automatyczna praca w Twoim obecnym systemie. Umów rozmowę i sprawdź integrację."
+    }
+  },
+  "en": {
+    "title": "SmartCRM: AI plugged into the CRM your team already knows",
+    "description": "SmartCRM is an AI plugin for your current CRM: it qualifies leads, sends follow-ups and fills in data in the background, with no new login or migration.",
+    "eyebrow": "An AI plugin for your current CRM",
+    "heroTitle": "Add AI to the system your salesperson already knows",
+    "lead": "You do not have to force your team to learn new software. A plugin connected to your current system qualifies leads, sends follow-ups and updates data in the background.",
+    "facts": [
+      { "v": "5 min", "l": "to install the plugin" },
+      { "v": "1 day", "l": "to set up" },
+      { "v": "0", "l": "data migrations and new logins" }
+    ],
+    "problem": {
+      "title": "Why most AI automation fails",
+      "lead": "Traditional AI tools are a separate app next to your CRM.",
+      "items": [
+        { "t": "Another login and another tab", "d": "Salespeople forget to log in to a separate system." },
+        { "t": "Retyping data by hand", "d": "Time lost copying information between two windows." },
+        { "t": "A long and costly migration", "d": "Team training and employees' resistance to new software." }
+      ]
+    },
+    "solution": {
+      "title": "We plug AI into the middle of your CRM",
+      "lead": "Your team works where it always did, only faster.",
+      "items": [
+        { "t": "Automatic qualification of new leads", "d": "The AI assesses incoming messages and creates tasks." },
+        { "t": "Smart email follow-ups", "d": "Personalized reminders sent from your own mailbox." },
+        { "t": "Filling in data", "d": "The AI fills in CRM fields on its own with data from websites and LinkedIn." }
+      ]
+    },
+    "steps": {
+      "title": "Setup in 3 steps",
+      "lead": "No reorganization of the company and no month of training.",
+      "items": [
+        { "t": "You plug the plugin into your CRM", "d": "You connect the plugin to your current system with a secure API key. No database migration." },
+        { "t": "You configure the AI rules", "d": "You set how the AI qualifies messages, creates tasks and sends follow-ups." },
+        { "t": "Your team works faster", "d": "Salespeople log in where they always do. They see completed data, qualified leads and ready draft replies." }
+      ]
+    },
+    "benefits": {
+      "title": "What you gain",
+      "items": [
+        { "t": "No new interfaces to learn", "d": "Your team knows this system inside out, and nothing changes for them." },
+        { "t": "Automatic data updates", "d": "The AI fills in fields in your CRM with no manual work." },
+        { "t": "Setup in 1 day", "d": "A ready plugin runs in the background, with no data migration." }
+      ]
+    },
+    "extras": {
+      "title": "We connect to popular CRM systems",
+      "items": [
+        { "t": "HubSpot" },
+        { "t": "Pipedrive" },
+        { "t": "Salesforce" },
+        { "t": "Livespace" },
+        { "t": "Custom API", "d": "For in-house or extensive CRM systems." }
+      ]
+    },
+    "start": {
+      "title": "How we start",
+      "items": [
+        { "t": "A pilot on one funnel", "d": "We test the AI on one chosen sales funnel and one CRM account." },
+        { "t": "Full automation", "d": "Once the pilot proves itself, we extend automation to more sequences and client data." },
+        { "t": "Integration made to measure", "d": "For in-house systems we build a dedicated API plugin." }
+      ]
+    },
+    "faq": [
+      { "q": "Do I have to migrate data to a new system?", "a": "No. The plugin connects to your current CRM through a secure API key, with no database migration." },
+      { "q": "Does the team have to learn a new tool?", "a": "No. Salespeople work in the same system they use today." }
+    ],
+    "cta": {
+      "title": "Already have a CRM? Let's add AI to it",
+      "text": "No new passwords and no resistance from the team, just automatic work inside your current system. Book a call and check the integration."
+    }
+  }
+}

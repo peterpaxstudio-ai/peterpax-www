@@ -1,0 +1,148 @@
+{
+  "pl": {
+    "title": "SmartMenu: catering i przyjęcia wycenione w 30 sekund",
+    "description": "SmartMenu zamienia wyceny cateringu na kartce w szybkie zamówienia: kosztorys na ekranie, karta dla kuchni jednym kliknięciem i zamawianie online.",
+    "eyebrow": "Dla restauracji, cateringu i sal bankietowych",
+    "heroTitle": "Wyceny cateringu bez kartki i kalkulatora",
+    "lead": "Używaj Pulpitu Managera podczas rozmów telefonicznych albo pozwól klientom samodzielnie skomponować catering przez internet. Kosztorys jest od razu na ekranie.",
+    "facts": [
+      { "v": "48 h", "l": "wdrożenie z Twoim menu" },
+      { "v": "30 s", "l": "na wpisanie zamówienia" },
+      { "v": "0%", "l": "prowizji od zamówień" }
+    ],
+    "problem": {
+      "title": "Chaos, maile i godziny w Excelu",
+      "items": [
+        { "t": "„Ile wyjdzie na 25 osób?”", "d": "Musisz ręcznie szacować porcje, sprawdzać ceny składników i pisać maila po godzinach pracy lokalu." },
+        { "t": "Ciągłe poprawki i telefony", "d": "„A czy możemy zamienić pieczarki na roladki? Ile wtedy wyjdzie na osobę?” To kolejna wymiana wiadomości." },
+        { "t": "Klient ucieka do konkurencji", "d": "Zanim odpiszesz na zapytanie, klient zamówił już catering w miejscu, które dało mu szybką wycenę." },
+        { "t": "Pomyłki w kuchni", "d": "Niejasne notatki kelnera, zgubione kartki i nieporozumienia co do liczby porcji w dniu imprezy." }
+      ]
+    },
+    "solution": {
+      "title": "Pełna automatyzacja i spokój w lokalu",
+      "lead": "SmartMenu zostało zaprojektowane z myślą o codziennych wyzwaniach gastronomii.",
+      "items": [
+        { "t": "Błyskawiczne wpisanie zamówienia", "d": "Ty lub manager wpisujecie potrawy w 30 sekund i od razu podajecie kwotę za jedną osobę oraz za całość." },
+        { "t": "Automatyczny koszt na osobę", "d": "Stawka „na gościa” aktualizuje się w czasie rzeczywistym przy każdym dodanym daniu." },
+        { "t": "Zamawianie online", "d": "Klienci sami komponują menu przez link i kod QR. Karta działa na smartfonie bez instalowania aplikacji." },
+        { "t": "Karta dla kuchni jednym kliknięciem", "d": "Czytelna lista dań z ilościami, czasem odbioru, danymi klienta i uwagami o alergenach, do PDF lub wydruku." },
+        { "t": "Twoja marka", "d": "Własne logo, barwy, zdjęcia, pozycje i gramatury." },
+        { "t": "Filtry i wyszukiwanie", "d": "Szybkie wyszukiwanie pozycji, filtrowanie wybranych dań i korekta koszyka." }
+      ]
+    },
+    "steps": {
+      "title": "Ty gotujesz, my zajmujemy się resztą",
+      "lead": "Nie potrzebujesz wiedzy technicznej ani programistów. Cały proces bierzemy na siebie.",
+      "items": [
+        { "t": "Przesyłasz swoje menu", "d": "Wystarczy plik PDF, zdjęcie papierowej karty albo plik Word. Podajesz nazwy potraw, gramatury i ceny pozycji." },
+        { "t": "Konfigurujemy w 48 godzin", "d": "Wprowadzamy potrawy, logo i kolory marki oraz ustawiamy Pulpit Managera i opcjonalną kartę online." },
+        { "t": "Wpisujesz zlecenia", "d": "Dostajesz gotowy pulpit do wpisywania zamówień z telefonu albo publikujesz link i kod QR dla gości." }
+      ]
+    },
+    "benefits": {
+      "title": "Szybciej, spokojniej i bez pomyłek",
+      "items": [
+        { "t": "Szybsze wyceny", "d": "Kosztorys jest na ekranie podczas rozmowy z klientem." },
+        { "t": "Mniej pracy tygodniowo", "d": "Koniec z liczeniem na kartce i w Excelu." },
+        { "t": "Zero pomyłek z kuchnią", "d": "Jednoznaczna specyfikacja porcji do druku i PDF." }
+      ]
+    },
+    "extras": {
+      "title": "Dwa tryby pracy",
+      "items": [
+        { "t": "Pulpit Managera (offline)", "d": "Tylko dla personelu. Klienci nie mają wstępu, strona nie jest indeksowana, a konkurencja nie podejrzy Twoich stawek ani marż. Zlecenia zapisują się w pamięci przeglądarki, więc działa też bez internetu i pozwala drukować karty dań dla kuchni." },
+        { "t": "Karta klienta (online)", "d": "Klient sam komponuje catering z poziomu smartfona, przez link lub kod QR. Ty dostajesz gotowe zamówienie." }
+      ]
+    },
+    "start": {
+      "title": "Zero rewolucji w narzędziach",
+      "items": [
+        { "t": "Bez zmiany strony i POS", "d": "Nie musisz zmieniać strony www ani systemu kasowego. SmartMenu działa jako niezależny link, pulpit na laptopie lub tablecie albo kod QR na ulotce." },
+        { "t": "Gotowe w 48 godzin", "d": "Z Twoim menu, logo i kolorami." }
+      ]
+    },
+    "faq": [
+      { "q": "Czy muszę zmieniać stronę lub system kasowy?", "a": "Nie. SmartMenu działa niezależnie, jako link, pulpit lokalny lub kod QR." },
+      { "q": "Czy pulpit działa bez internetu?", "a": "Tak. Pulpit Managera zapisuje zlecenia w pamięci przeglądarki i pozwala drukować karty dań dla kuchni całkowicie bez sieci." },
+      { "q": "Czy klienci zobaczą moje stawki i marże?", "a": "W trybie wewnętrznym nie. Klienci nie mają wstępu do systemu, a strona nie jest indeksowana w wyszukiwarkach." }
+    ],
+    "cta": {
+      "title": "Zobacz SmartMenu na swoim menu",
+      "text": "Umów bezpłatną konsultację. Pokażemy, jak wyglądałby kosztorys i karta dla kuchni na Twoich potrawach."
+    }
+  },
+  "en": {
+    "title": "SmartMenu: catering and events priced in 30 seconds",
+    "description": "SmartMenu turns catering quotes on paper into quick orders: an instant on-screen quote, a kitchen sheet in one click and online ordering.",
+    "eyebrow": "For restaurants, caterers and banquet halls",
+    "heroTitle": "Catering quotes without paper and a calculator",
+    "lead": "Use the Manager Dashboard during phone calls, or let clients compose their own catering online. The quote is on the screen at once.",
+    "facts": [
+      { "v": "48 h", "l": "setup with your menu" },
+      { "v": "30 s", "l": "to enter an order" },
+      { "v": "0%", "l": "commission on orders" }
+    ],
+    "problem": {
+      "title": "Chaos, emails and hours in Excel",
+      "items": [
+        { "t": "“How much for 25 people?”", "d": "You have to estimate portions by hand, check ingredient prices and write an email after the venue closes." },
+        { "t": "Endless changes and calls", "d": "“Can we swap the mushrooms for rolls? How much per person then?” Another round of messages." },
+        { "t": "The client goes to a competitor", "d": "By the time you reply to the enquiry, the client has already ordered from a place that gave a quick quote." },
+        { "t": "Mistakes in the kitchen", "d": "Unclear waiter's notes, lost slips and misunderstandings about the number of portions on the day." }
+      ]
+    },
+    "solution": {
+      "title": "Full automation and calm in the venue",
+      "lead": "SmartMenu was designed around the everyday challenges of catering.",
+      "items": [
+        { "t": "Instant order entry", "d": "You or your manager enter dishes in 30 seconds and immediately quote the price per person and for the whole order." },
+        { "t": "Automatic cost per person", "d": "The “per guest” rate updates in real time with every dish you add." },
+        { "t": "Online ordering", "d": "Clients compose the menu themselves via a link and a QR code. The card works on a smartphone with no app to install." },
+        { "t": "A kitchen sheet in one click", "d": "A clear list of dishes with quantities, pickup time, client details and allergen notes, as a PDF or printout." },
+        { "t": "Your brand", "d": "Your own logo, colors, photos, items and portion weights." },
+        { "t": "Filters and search", "d": "Quick item search, filtering of chosen dishes and basket corrections." }
+      ]
+    },
+    "steps": {
+      "title": "You cook, we take care of the rest",
+      "lead": "You need no technical knowledge or programmers. We take the whole process on ourselves.",
+      "items": [
+        { "t": "You send your menu", "d": "A PDF, a photo of the paper menu or a Word file is enough. You give dish names, portion weights and item prices." },
+        { "t": "We set it up in 48 hours", "d": "We enter your dishes, add your logo and brand colors, and set up the Manager Dashboard and the optional online card." },
+        { "t": "You enter orders", "d": "You get a ready dashboard to enter orders from your phone, or you publish a link and QR code for guests." }
+      ]
+    },
+    "benefits": {
+      "title": "Faster, calmer and without mistakes",
+      "items": [
+        { "t": "Faster quotes", "d": "The quote is on the screen during the conversation with the client." },
+        { "t": "Less work every week", "d": "No more counting on paper and in Excel." },
+        { "t": "Zero kitchen mix-ups", "d": "An unambiguous portion specification for print and PDF." }
+      ]
+    },
+    "extras": {
+      "title": "Two ways of working",
+      "items": [
+        { "t": "Manager Dashboard (offline)", "d": "For staff only. Clients have no access, the page is not indexed, and competitors cannot peek at your rates or margins. Orders are saved in the browser's memory, so it also works without internet and lets you print dish sheets for the kitchen." },
+        { "t": "Client card (online)", "d": "The client composes the catering on a smartphone, via a link or QR code. You get a ready order." }
+      ]
+    },
+    "start": {
+      "title": "No revolution in your tools",
+      "items": [
+        { "t": "No change to your website or POS", "d": "You do not have to change your website or till system. SmartMenu works as an independent link, a dashboard on a laptop or tablet, or a QR code on a flyer." },
+        { "t": "Ready in 48 hours", "d": "With your menu, logo and colors." }
+      ]
+    },
+    "faq": [
+      { "q": "Do I have to change my website or till system?", "a": "No. SmartMenu works independently, as a link, a local dashboard or a QR code." },
+      { "q": "Does the dashboard work without internet?", "a": "Yes. The Manager Dashboard saves orders in the browser's memory and lets you print dish sheets for the kitchen with no network at all." },
+      { "q": "Will clients see my rates and margins?", "a": "Not in the internal mode. Clients have no access to the system, and the page is not indexed by search engines." }
+    ],
+    "cta": {
+      "title": "See SmartMenu on your own menu",
+      "text": "Book a free consultation. We will show how a quote and a kitchen sheet would look with your dishes."
+    }
+  }
+}

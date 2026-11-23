@@ -22,6 +22,36 @@ const rozwiazania = defineCollection({
   }),
 });
 
+const blok = z.object({ t: z.string(), d: z.string().optional() });
+const sekcja = z.object({
+  title: z.string(),
+  lead: z.string().optional(),
+  items: z.array(blok).min(1),
+});
+const strona = z.object({
+  title: z.string().min(20).max(70),
+  description: z.string().min(80).max(160),
+  eyebrow: z.string(),
+  heroTitle: z.string(),
+  lead: z.string(),
+  facts: z.array(z.object({ v: z.string(), l: z.string() })).max(4).default([]),
+  problem: sekcja,
+  solution: sekcja,
+  steps: sekcja,
+  benefits: sekcja,
+  extras: sekcja.optional(),
+  start: sekcja.optional(),
+  faq: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
+  cta: z.object({ title: z.string(), text: z.string() }),
+});
+
+// Własna strona opisowa rozwiązania. Nazwa pliku = nazwa pliku karty w `rozwiazania` (np. smartinbox.json).
+// Ceny NIE są częścią stron opisowych.
+const opisy = defineCollection({
+  loader: glob({ pattern: '**/*.json', base: './src/content/opisy' }),
+  schema: z.object({ pl: strona, en: strona }),
+});
+
 const blog = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/blog' }),
   schema: z.object({
@@ -35,4 +65,4 @@ const blog = defineCollection({
   }),
 });
 
-export const collections = { rozwiazania, blog };
+export const collections = { rozwiazania, blog, opisy };

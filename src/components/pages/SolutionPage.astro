@@ -1,0 +1,142 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import firma from '../../data/firma.json';
+import { ui, paths, solutionBase, type Lang } from '../../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  slug: string;
+}
+const { lang, slug } = Astro.props;
+const t = ui[lang];
+const p = paths[lang];
+
+const page = await getEntry('opisy', slug);
+const card = await getEntry('rozwiazania', slug);
+if (!page || !card) throw new Error(`Brak strony opisowej lub karty: ${slug}`);
+const c = page.data[lang];
+const d = card.data;
+const name = d.nazwa;
+
+const pageIds = new Set((await getCollection('opisy')).map((o) => o.id));
+const others = (await getCollection('rozwiazania'))
+  .filter((s) => !s.data.draft && pageIds.has(s.id) && s.id !== slug)
+  .sort((a, b) => a.data.order - b.data.order);
+
+const altPath = `${solutionBase[lang === 'pl' ? 'en' : 'pl']}${slug}/`;
+const book = firma.rezerwacjaUrl || p.contact;
+const bookExternal = Boolean(firma.rezerwacjaUrl);
+---
+<Base title={c.title} description={c.description} lang={lang} altPath={altPath}>
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href={p.home}>Peter Pax</a> / <a href={p.solutions}>{t.sp.all}</a> / <span>{name}</span>
+  </nav>
+
+  <section class="sp-hero">
+    <div>
+      <div class="eyebrow">
+        <span class="ico" style={`background:var(--${d.kolor})`}>{d.litera}</span>
+        <span>{name} · {c.eyebrow}</span>
+      </div>
+      <h1>{c.heroTitle}</h1>
+      <p class="lead">{c.lead}</p>
+      <div class="cta">
+        <a class="btn" href={book} target={bookExternal ? '_blank' : undefined} rel={bookExternal ? 'noopener' : undefined}>{t.cta}</a>
+        <a class="btn ghost" href="#jak-to-dziala">{t.sp.how}</a>
+      </div>
+    </div>
+    <div class="sp-art" aria-hidden="true" style={`--sp:var(--${d.kolor})`}>
+      <span class="sp-blob"></span>
+      <span class="sp-letter">{d.litera}</span>
+      <span class="sp-dot"></span>
+    </div>
+  </section>
+
+  {c.facts.length > 0 && (
+    <div class="facts">
+      {c.facts.map((f) => <div class="fact"><b>{f.v}</b><span>{f.l}</span></div>)}
+    </div>
+  )}
+
+  <section class="sec">
+    <h2>{c.problem.title}</h2>
+    {c.problem.lead && <p class="lead2">{c.problem.lead}</p>}
+    <div class="tiles">
+      {c.problem.items.map((i) => <div class="tile bad"><h3>{i.t}</h3>{i.d && <p>{i.d}</p>}</div>)}
+    </div>
+  </section>
+
+  <section class="sec">
+    <h2>{c.solution.title}</h2>
+    {c.solution.lead && <p class="lead2">{c.solution.lead}</p>}
+    <div class="tiles">
+      {c.solution.items.map((i) => <div class="tile"><h3>{i.t}</h3>{i.d && <p>{i.d}</p>}</div>)}
+    </div>
+  </section>
+
+  <section class="steps" id="jak-to-dziala" aria-labelledby="sp-steps">
+    <h2 id="sp-steps">{c.steps.title}</h2>
+    {c.steps.lead && <p class="steps-lead">{c.steps.lead}</p>}
+    <ol>
+      {c.steps.items.map((i) => <li><h3>{i.t}</h3>{i.d && <p>{i.d}</p>}</li>)}
+    </ol>
+  </section>
+
+  <section class="sec">
+    <h2>{c.benefits.title}</h2>
+    {c.benefits.lead && <p class="lead2">{c.benefits.lead}</p>}
+    <div class="tiles">
+      {c.benefits.items.map((i) => <div class="tile ok"><h3>{i.t}</h3>{i.d && <p>{i.d}</p>}</div>)}
+    </div>
+  </section>
+
+  {c.extras && (
+    <section class="sec">
+      <h2>{c.extras.title}</h2>
+      {c.extras.lead && <p class="lead2">{c.extras.lead}</p>}
+      <div class="tiles">
+        {c.extras.items.map((i) => <div class="tile"><h3>{i.t}</h3>{i.d && <p>{i.d}</p>}</div>)}
+      </div>
+    </section>
+  )}
+
+  {c.start && (
+    <section class="sec">
+      <h2>{c.start.title}</h2>
+      {c.start.lead && <p class="lead2">{c.start.lead}</p>}
+      <div class="tiles">
+        {c.start.items.map((i) => <div class="tile"><h3>{i.t}</h3>{i.d && <p>{i.d}</p>}</div>)}
+      </div>
+    </section>
+  )}
+
+  {c.faq.length > 0 && (
+    <section class="sec faq">
+      <h2>{t.sp.faq}</h2>
+      {c.faq.map((f) => (
+        <details>
+          <summary>{f.q}</summary>
+          <p>{f.a}</p>
+        </details>
+      ))}
+    </section>
+  )}
+
+  <section class="cta-band" aria-labelledby="sp-cta">
+    <h2 id="sp-cta">{c.cta.title}</h2>
+    <p>{c.cta.text}</p>
+    <div class="cta">
+      <a class="btn" href={book} target={bookExternal ? '_blank' : undefined} rel={bookExternal ? 'noopener' : undefined}>{t.cta}</a>
+      <a class="btn ghost" href={`mailto:${firma.email}`}>{t.sp.mail}</a>
+    </div>
+    <p class="cta-contact">{t.sp.call}: {firma.telefon} · {firma.email}</p>
+  </section>
+
+  <section class="sec others-sec">
+    <h2>{t.sp.others}</h2>
+    <div class="others">
+      {others.map((o) => <a href={`${solutionBase[lang]}${o.id}/`}>{o.data.nazwa}</a>)}
+    </div>
+  </section>
+</Base>

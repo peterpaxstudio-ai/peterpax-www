@@ -1,0 +1,130 @@
+{
+  "pl": {
+    "title": "SmartReview: więcej opinii w Google i odpowiedzi na każdą",
+    "description": "SmartReview prosi klientów o opinię w Google i podpowiada odpowiedzi na każdą recenzję. Ty zatwierdzasz, co idzie publicznie. Podłączenie w 5 minut.",
+    "eyebrow": "System zarządzania opiniami Google",
+    "heroTitle": "Twoja wizytówka Google to Twoja nowa strona główna",
+    "lead": "Zadbaj o nią, zanim zrobi to konkurencja. SmartReview prosi klientów o opinię i podpowiada odpowiedzi na każdą recenzję, bez Twojego dodatkowego wysiłku.",
+    "facts": [
+      { "v": "5 min", "l": "podłączenie wizytówki Google" },
+      { "v": "1-15", "l": "lokalizacji, zależnie od pakietu" },
+      { "v": "3", "l": "pakiety: Basic, Standard, Pro" }
+    ],
+    "problem": {
+      "title": "Zadowolony klient milczy, niezadowolony pisze elaborat",
+      "lead": "Według opisu rozwiązania 90% klientów sprawdza opinie w Google, zanim zadzwoni albo przyjedzie. Zadowoleni rzadko zostawiają opinię sami, a Ty nie masz czasu o nią prosić ani odpowiadać na każdy komentarz.",
+      "items": [
+        { "t": "Zadowolony klient", "d": "Płaci, dziękuje, wsiada w auto i jedzie do domu. Nikt nie pamięta, żeby zostawić opinię." },
+        { "t": "Niezadowolony klient", "d": "Ten pamięta zawsze i pisze długą recenzję na jedną gwiazdkę, którą widzi każdy kolejny klient." },
+        { "t": "Brak czasu", "d": "Prosić o opinie i odpowiadać na każdą recenzję to praca, której zwykle nie ma kto zrobić." }
+      ]
+    },
+    "solution": {
+      "title": "Opinie pod kontrolą, bez dodatkowej pracy",
+      "items": [
+        { "t": "Prosi o opinię", "d": "Automatycznie po wizycie lub zakupie, mailem albo SMS-em, bez Twojego udziału." },
+        { "t": "Podpowiada odpowiedzi", "d": "Na każdą opinię w tonie Twojej firmy. Domyślnie czekają na Twoje zatwierdzenie i zawsze możesz je edytować." },
+        { "t": "Powiadamia na bieżąco", "d": "O nowej opinii dowiadujesz się od razu, więc na skargę reagujesz szybko." },
+        { "t": "Pokazuje opinie na Twojej stronie", "d": "Dzięki widgetowi z opiniami (zależnie od pakietu)." }
+      ]
+    },
+    "steps": {
+      "title": "Trzy kroki, żadnych technikaliów",
+      "items": [
+        { "t": "Podłączasz wizytówkę Google", "d": "Zajmuje to około 5 minut. Jedna, trzy albo piętnaście lokalizacji, zależnie od pakietu." },
+        { "t": "System prosi klientów o opinię", "d": "Automatycznie po wizycie lub zakupie, mailem albo SMS-em." },
+        { "t": "AI przygotowuje odpowiedzi", "d": "W Twoim stylu. Ty decydujesz, co i kiedy idzie publicznie." }
+      ]
+    },
+    "benefits": {
+      "title": "Co zyskujesz",
+      "items": [
+        { "t": "Czas", "d": "Odpowiedzi nie piszesz od zera, a prośby o opinie wychodzą same." },
+        { "t": "Reputację", "d": "Na każdą opinię jest odpowiedź, a wizytówka wygląda na prowadzoną." },
+        { "t": "Kontrolę", "d": "To Ty decydujesz, co i kiedy idzie publicznie." },
+        { "t": "Przykład z jednego wdrożenia", "d": "Pakiet Standard: średnia ocena w Google wzrosła z 3,8 do 4,6 w 3 miesiące, a liczba opinii się podwoiła. To wynik jednego klienta, nie obietnica dla każdej firmy." }
+      ]
+    },
+    "extras": {
+      "title": "Pakiety dopasowane do skali firmy",
+      "items": [
+        { "t": "Basic", "d": "Dla jednego lokalu, który zaczyna budować obecność w Google. Jedna wizytówka, powiadomienia w czasie rzeczywistym, 20 gotowych szablonów odpowiedzi, widget z opiniami na stronę." },
+        { "t": "Standard", "d": "Dla firm, które chcą aktywnie zdobywać opinie, nie tylko reagować. Do 3 wizytówek, asystent AI z propozycjami odpowiedzi, kampanie SMS i e-mail, analiza sentymentu i trendów." },
+        { "t": "Pro", "d": "Dla sieci i agencji. Do 15 wizytówek, tryb pełnego autopilota AI, integracje z CRM i POS, wiele ról użytkowników, dedykowany opiekun i opcja white-label." }
+      ]
+    },
+    "faq": [
+      { "q": "Czy odpowiedzi AI będą brzmiały sztucznie?", "a": "System uczy się tonu Twojej firmy i podpowiada odpowiedzi, które zawsze możesz edytować przed wysłaniem. Ty decydujesz, co i kiedy idzie publicznie." },
+      { "q": "Czy to zadziała z moim systemem CRM lub kasowym?", "a": "W pakiecie Pro tak, są integracje z Salesforce, HubSpot i popularnymi systemami gastronomicznymi. W pakietach Basic i Standard dane eksportujesz i podłączasz przez Zapier." },
+      { "q": "Czy mogę zrezygnować w każdej chwili?", "a": "Tak, przy planie miesięcznym bez okresu wypowiedzenia." }
+    ],
+    "cta": {
+      "title": "Zobacz SmartReview na własnej wizytówce",
+      "text": "Pokażemy, jak SmartReview obsłużyłby Twoją najnowszą opinię, na żywo, w 3 minuty, na Twojej własnej wizytówce Google. Bez zobowiązań."
+    }
+  },
+  "en": {
+    "title": "SmartReview: more Google reviews and a reply to every one",
+    "description": "SmartReview asks clients for a Google review and drafts a reply to every one. You approve what goes public. Connected in 5 minutes.",
+    "eyebrow": "A Google review management system",
+    "heroTitle": "Your Google profile is your new home page",
+    "lead": "Take care of it before your competitor does. SmartReview asks clients for a review and drafts a reply to every review, without extra effort from you.",
+    "facts": [
+      { "v": "5 min", "l": "to connect your Google profile" },
+      { "v": "1-15", "l": "locations, depending on the plan" },
+      { "v": "3", "l": "plans: Basic, Standard, Pro" }
+    ],
+    "problem": {
+      "title": "A happy client stays silent, an unhappy one writes an essay",
+      "lead": "According to the solution's description, 90% of customers check Google reviews before they call or visit. Happy clients rarely leave a review on their own, and you have no time to ask for one or to answer every comment.",
+      "items": [
+        { "t": "A happy client", "d": "Pays, says thanks, gets in the car and drives home. Nobody remembers to leave a review." },
+        { "t": "An unhappy client", "d": "Always remembers and writes a long one-star review that every following client sees." },
+        { "t": "No time", "d": "Asking for reviews and replying to each one is work that usually nobody has time for." }
+      ]
+    },
+    "solution": {
+      "title": "Reviews under control, with no extra work",
+      "items": [
+        { "t": "Asks for a review", "d": "Automatically after a visit or purchase, by email or SMS, without your involvement." },
+        { "t": "Drafts replies", "d": "To every review, in your company's tone. By default they wait for your approval and you can always edit them." },
+        { "t": "Notifies you in real time", "d": "You learn about a new review at once, so you react to a complaint quickly." },
+        { "t": "Shows reviews on your website", "d": "With a reviews widget (depending on the plan)." }
+      ]
+    },
+    "steps": {
+      "title": "Three steps, no technical knowledge",
+      "items": [
+        { "t": "You connect your Google profile", "d": "It takes about 5 minutes. One, three or fifteen locations, depending on the plan." },
+        { "t": "The system asks clients for a review", "d": "Automatically after a visit or purchase, by email or SMS." },
+        { "t": "The AI prepares replies", "d": "In your style. You decide what goes public and when." }
+      ]
+    },
+    "benefits": {
+      "title": "What you gain",
+      "items": [
+        { "t": "Time", "d": "You do not write replies from scratch, and review requests go out on their own." },
+        { "t": "Reputation", "d": "Every review has a reply, and the profile looks actively run." },
+        { "t": "Control", "d": "You decide what goes public and when." },
+        { "t": "An example from one rollout", "d": "Standard plan: the average Google rating rose from 3.8 to 4.6 in 3 months, and the number of reviews doubled. This is one client's result, not a promise for every business." }
+      ]
+    },
+    "extras": {
+      "title": "Plans matched to the size of your business",
+      "items": [
+        { "t": "Basic", "d": "For a single location starting to build its Google presence. One profile, real-time notifications, 20 ready reply templates, a reviews widget for your website." },
+        { "t": "Standard", "d": "For businesses that want to actively collect reviews, not only react. Up to 3 profiles, an AI assistant with reply suggestions, SMS and email campaigns, sentiment and trend analysis." },
+        { "t": "Pro", "d": "For chains and agencies. Up to 15 profiles, full AI autopilot mode, CRM and POS integrations, multiple user roles, a dedicated account manager and a white-label option." }
+      ]
+    },
+    "faq": [
+      { "q": "Will the AI replies sound artificial?", "a": "The system learns your company's tone and suggests replies you can always edit before sending. You decide what goes public and when." },
+      { "q": "Will it work with my CRM or POS system?", "a": "In the Pro plan, yes, with integrations for Salesforce, HubSpot and popular restaurant systems. In Basic and Standard you export data and connect it through Zapier." },
+      { "q": "Can I cancel at any time?", "a": "Yes, on the monthly plan with no notice period." }
+    ],
+    "cta": {
+      "title": "See SmartReview on your own profile",
+      "text": "We will show how SmartReview would handle your latest review, live, in 3 minutes, on your own Google profile. No obligation."
+    }
+  }
+}

@@ -5,8 +5,9 @@ import type { CollectionEntry } from 'astro:content';
 interface Props {
   lang: Lang;
   s: CollectionEntry<'rozwiazania'>;
+  pageHref?: string;
 }
-const { lang, s } = Astro.props;
+const { lang, s, pageHref } = Astro.props;
 const t = ui[lang];
 const d = s.data;
 const n = d.nazwa.replace('Smart', '');
@@ -29,8 +30,10 @@ const n = d.nazwa.replace('Smart', '');
     <div>
       <span><small>{t.setup}</small><strong>{d.wdrozenie[lang]}</strong></span>
     </div>
-    {d.opisUrl
-      ? <a class="more" href={d.opisUrl} target="_blank" rel="noopener">{t.more} →</a>
-      : <span class="soon">{t.soon}</span>}
+    {pageHref
+      ? <a class="more" href={pageHref}>{t.more} →</a>
+      : d.opisUrl
+        ? <a class="more" href={d.opisUrl} target="_blank" rel="noopener">{t.more} →</a>
+        : <span class="soon">{t.soon}</span>}
   </div>
 </article>

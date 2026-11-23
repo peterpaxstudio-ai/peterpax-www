@@ -1,0 +1,158 @@
+{
+  "pl": {
+    "title": "SmartInbox: skrzynka firmowa, która sortuje się sama",
+    "description": "SmartInbox czyta każdy mail, nadaje priorytet, układa w folderach i przygotowuje szkic odpowiedzi. Uruchomienie w około 2 dni, bez zmiany poczty.",
+    "eyebrow": "AI-asystent skrzynki dla biura firmy",
+    "heroTitle": "Skrzynka, która sortuje się sama, zanim usiądziesz przy komputerze",
+    "lead": "SmartInbox czyta każdy przychodzący mail, nadaje priorytet, segreguje do folderów i przygotowuje szkice odpowiedzi. Twój zespół zaczyna dzień od pracy, nie od walki z pocztą.",
+    "facts": [
+      { "v": "3-8 s", "l": "od wpłynięcia maila do kategoryzacji" },
+      { "v": "2 dni", "l": "typowy czas uruchomienia" },
+      { "v": "0", "l": "maili skasowanych lub wysłanych bez człowieka" }
+    ],
+    "problem": {
+      "title": "Jeden mail z urzędu, jeden termin, 120 innych wiadomości wokół",
+      "lead": "Ludzki mózg po ośmiu godzinach pracy nie jest zoptymalizowany do sortowania setek maili. AI jest i nie ma gorszych dni.",
+      "items": [
+        { "t": "Pilne ginie wśród zwykłych", "d": "Wezwanie z urzędu z terminem 7 dni leży obok newsletterów." },
+        { "t": "Godziny na sortowanie", "d": "Według opisu rozwiązania biura potrafią tracić na ręczną obsługę poczty 40-80 godzin miesięcznie." },
+        { "t": "Te same odpowiedzi", "d": "Na to samo pytanie klienta odpisujesz kolejny raz, tymi samymi słowami." }
+      ]
+    },
+    "solution": {
+      "title": "Pierwsza linia poczty bierze na siebie SmartInbox",
+      "items": [
+        { "t": "Czyta i streszcza", "d": "Każdy mail dostaje dwuzdaniowe podsumowanie." },
+        { "t": "Kategoria i priorytet", "d": "Ustala kategorię (na przykład PIT, VAT, ZUS, kontrole) i pilność." },
+        { "t": "Wykrywa sprawy krytyczne", "d": "Rozpoznaje domeny urzędowe, wyłapuje terminy ukryte w treści, a szef dostaje natychmiastowy alert." },
+        { "t": "Przygotowuje szkic odpowiedzi", "d": "Na standardowe pytania klientów odpowiedź powstaje z bazy wiedzy Twojej firmy. Pracownik czyta i klika „Wyślij”." }
+      ]
+    },
+    "steps": {
+      "title": "Cztery kroki, zero magii, dobrze poukładany proces",
+      "lead": "Każdy mail przechodzi tę samą ścieżkę, w tej samej kolejności. AI przygotowuje, człowiek zatwierdza.",
+      "items": [
+        { "t": "Mail wpada", "d": "System odbiera wiadomość przez IMAP z Twojej obecnej skrzynki, bez przenoszenia poczty." },
+        { "t": "AI czyta i rozumie", "d": "Ustala kategorię i pilność oraz pisze streszczenie, w 3-8 sekund." },
+        { "t": "Priorytet i folder", "d": "Sprawy krytyczne są oznaczane natychmiast, reszta trafia do właściwych folderów." },
+        { "t": "Szkic czeka na klik", "d": "Gotowa odpowiedź czeka, zanim otworzysz pocztę." }
+      ]
+    },
+    "benefits": {
+      "title": "Trzy rzeczy, które odzyskujesz od pierwszego tygodnia",
+      "items": [
+        { "t": "Czas", "d": "Koniec z sekretarzowaniem własnej skrzynce: zero ręcznego sortowania, podsumowanie przy każdym mailu i gotowe szkice." },
+        { "t": "Spokój", "d": "Żaden mail z urzędu nie zaginie. Sprawy krytyczne są wykrywane automatycznie." },
+        { "t": "Wizerunek", "d": "Biuro odpowiada w minuty, nie w dni, a klienci to czują. Nowe zapytania ofertowe są obsłużone błyskawicznie." }
+      ]
+    },
+    "extras": {
+      "title": "Zacznij od skrzynki, rozbuduj, kiedy będziesz gotowy",
+      "lead": "Baza to odbiór, kategoryzacja, priorytety i alerty. Każdy moduł dokładasz osobno.",
+      "items": [
+        { "t": "Integracja z CRM", "d": "Maile trafiają automatycznie do opiekunów właściwych klientów." },
+        { "t": "Odczyt faktur (OCR)", "d": "Dane z faktur trafiają prosto do systemu księgowego." },
+        { "t": "Ścigacz dokumentów", "d": "Automatyczne przypomnienia klientom o brakujących dokumentach." },
+        { "t": "WhatsApp i Messenger", "d": "Te same reguły sortowania dla wiadomości spoza poczty." },
+        { "t": "Onboarding klienta", "d": "Automatyczna ścieżka przyjęcia nowego klienta do firmy." },
+        { "t": "Baza wiedzy firmy", "d": "Ekspercka wiedza firmy dostępna dla całego zespołu." }
+      ]
+    },
+    "start": {
+      "title": "Uruchomienie w około 2 dni",
+      "lead": "Bez wymiany systemów, bez migracji poczty, bez tygodniowych szkoleń.",
+      "items": [
+        { "t": "Dzień 0: 30 minut rozmowy", "d": "Omawiamy kategorie spraw w Twoim biurze, a Ty dajesz nam dostęp IMAP do skrzynki." },
+        { "t": "Dzień 1-2: konfiguracja", "d": "Ustawiamy kategorie, priorytety, alerty i bazę wiedzy pod Twoje procesy." },
+        { "t": "Od dnia 2: skrzynka pracuje sama", "d": "Zespół wchodzi rano na posegregowaną pocztę." }
+      ]
+    },
+    "faq": [
+      { "q": "Czy AI wysyła maile za mnie?", "a": "Nie. Żaden mail nie jest kasowany ani wysyłany bez człowieka. Szkic zawsze czeka na Twoje zatwierdzenie." },
+      { "q": "Czy muszę zmieniać skrzynkę albo program pocztowy?", "a": "Nie. System działa przez IMAP z Twojej obecnej skrzynki, bez migracji poczty." },
+      { "q": "Ile trwa uruchomienie?", "a": "Typowo około 2 dni od rozmowy." }
+    ],
+    "cta": {
+      "title": "Ile godzin tygodniowo traci Twój zespół na pocztę?",
+      "text": "Wyślij nam 20-30 przykładowych maili (możesz je zanonimizować). Pokażemy, jak system je posortuje i jakie szkice odpowiedzi przygotuje. Wynik w 48 godzin, bez zobowiązań."
+    }
+  },
+  "en": {
+    "title": "SmartInbox: a business inbox that sorts itself",
+    "description": "SmartInbox reads every email, sets its priority, files it and prepares a draft reply. Up and running in about 2 days, without changing your email.",
+    "eyebrow": "An AI inbox assistant for the company office",
+    "heroTitle": "An inbox that sorts itself before you sit down at the computer",
+    "lead": "SmartInbox reads every incoming email, sets its priority, files it in folders and prepares draft replies. Your team starts the day with work, not with a fight against email.",
+    "facts": [
+      { "v": "3-8 s", "l": "from arrival to categorization" },
+      { "v": "2 days", "l": "typical time to go live" },
+      { "v": "0", "l": "emails deleted or sent without a human" }
+    ],
+    "problem": {
+      "title": "One email from a tax office, one deadline, 120 other messages around it",
+      "lead": "A human brain after eight hours of work is not built for sorting hundreds of emails. AI is, and it has no bad days.",
+      "items": [
+        { "t": "Urgent mail hides among ordinary mail", "d": "A summons from a tax office with a 7-day deadline sits next to newsletters." },
+        { "t": "Hours spent sorting", "d": "According to the solution's description, offices can lose 40-80 hours a month to handling email by hand." },
+        { "t": "The same replies", "d": "You answer the same client question again, in the same words." }
+      ]
+    },
+    "solution": {
+      "title": "SmartInbox takes over the first line of your email",
+      "items": [
+        { "t": "Reads and summarizes", "d": "Every email gets a two-sentence summary." },
+        { "t": "Category and priority", "d": "It sets a category (for example income tax, VAT, social insurance, inspections) and urgency." },
+        { "t": "Catches critical matters", "d": "It recognizes official domains and catches deadlines hidden in the text, and the boss gets an instant alert." },
+        { "t": "Prepares a draft reply", "d": "For standard client questions a reply is drafted from your company's knowledge base. Your colleague reads it and clicks “Send”." }
+      ]
+    },
+    "steps": {
+      "title": "Four steps, no magic, a well-organized process",
+      "lead": "Every email follows the same path, in the same order. The AI prepares, a human approves.",
+      "items": [
+        { "t": "The email arrives", "d": "The system receives the message over IMAP from your current mailbox, without moving your email." },
+        { "t": "The AI reads and understands", "d": "It sets category and urgency and writes the summary, in 3-8 seconds." },
+        { "t": "Priority and folder", "d": "Critical matters are flagged at once, the rest goes to the right folders." },
+        { "t": "A draft waits for a click", "d": "A ready reply waits before you open your email." }
+      ]
+    },
+    "benefits": {
+      "title": "Three things you get back from the first week",
+      "items": [
+        { "t": "Time", "d": "No more being your own inbox's secretary: no manual sorting, a summary on every email and ready drafts." },
+        { "t": "Peace of mind", "d": "No letter from an office goes missing. Critical matters are detected automatically." },
+        { "t": "Reputation", "d": "The office replies in minutes, not days, and clients feel it. New enquiries are handled instantly." }
+      ]
+    },
+    "extras": {
+      "title": "Start with the inbox, extend when you are ready",
+      "lead": "The base is receiving, categorizing, priorities and alerts. You add each module separately.",
+      "items": [
+        { "t": "CRM integration", "d": "Emails go automatically to the managers of the right clients." },
+        { "t": "Invoice reading (OCR)", "d": "Data from invoices goes straight into your accounting system." },
+        { "t": "A document chaser", "d": "Automatic reminders to clients about missing documents." },
+        { "t": "WhatsApp and Messenger", "d": "The same sorting rules for messages that are not email." },
+        { "t": "Client onboarding", "d": "An automatic path for taking a new client into the company." },
+        { "t": "A company knowledge base", "d": "The company's expert knowledge available to the whole team." }
+      ]
+    },
+    "start": {
+      "title": "Live in about 2 days",
+      "lead": "No system replacement, no email migration, no week-long training.",
+      "items": [
+        { "t": "Day 0: a 30-minute call", "d": "We go through the kinds of matters in your office, and you give us IMAP access to the mailbox." },
+        { "t": "Days 1-2: configuration", "d": "We set categories, priorities, alerts and the knowledge base to fit your processes." },
+        { "t": "From day 2: the inbox works on its own", "d": "Your team opens a sorted inbox in the morning." }
+      ]
+    },
+    "faq": [
+      { "q": "Does the AI send emails for me?", "a": "No. No email is deleted or sent without a human. A draft always waits for your approval." },
+      { "q": "Do I have to change my mailbox or email program?", "a": "No. The system works over IMAP from your current mailbox, without migrating email." },
+      { "q": "How long does setup take?", "a": "Typically about 2 days from the call." }
+    ],
+    "cta": {
+      "title": "How many hours a week does your team lose to email?",
+      "text": "Send us 20-30 sample emails (you can anonymize them). We will show how the system sorts them and what draft replies it prepares. You get the result in 48 hours, with no obligation."
+    }
+  }
+}
