@@ -2,6 +2,7 @@
 title: "SmartInbox: skrzynka firmowa, która sortuje się sama"
 description: "SmartInbox czyta każdy mail, nadaje priorytet, układa w folderach i przygotowuje szkic odpowiedzi. Uruchomienie w około 2 dni, bez zmiany poczty."
 lang: pl
+alt: smartinbox-inbox-that-sorts-itself-en
 pubDate: 2026-11-18
 tags: [SmartInbox, poczta, Smart]
 draft: false

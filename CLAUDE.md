@@ -28,6 +28,11 @@ Zbudowana w Astro. Treści edytujesz Ty (agent), człowiek zatwierdza Pull Reque
 
 ## Blog (`src/content/blog/`)
 - Pole `lang`: `pl` albo `en`. Wersja EN to osobny plik, zwykle z końcówką `-en` w nazwie.
+- Pole `alt`: nazwa pliku (bez `.md`) wersji w drugim języku, ustawiaj w obu plikach pary. Dzięki niemu działają tagi hreflang i przełącznik języka.
+- Pole `author` jest opcjonalne (domyślnie Piotr Gancarz z `firma.json`). `updatedDate` ustawiaj przy każdej istotnej zmianie treści.
+- Strona sama dodaje datę, autora, czas czytania, ramkę o autorze, linki do innych wpisów oraz dane strukturalne (BlogPosting, BreadcrumbList, FAQPage).
+- Format przyjazny AEO/GEO: pierwszy akapit to bezpośrednia odpowiedź na pytanie z tytułu (2-3 zdania), nagłówki H2 najlepiej jako pytania lub konkretne tezy, fakty ze źródłem i datą w treści, na końcu sekcja FAQ.
+- Sekcja FAQ musi mieć nagłówek `## Najczęstsze pytania` (PL) lub `## Frequently asked questions` (EN), a każde pytanie to osobna linia w pogrubieniu, odpowiedź w następnej linii. Tylko wtedy trafia do danych strukturalnych FAQPage.
 - title 20-70 znaków, description 80-160 znaków.
 - Nowe wpisy zawsze z `draft: true`, chyba że zadanie mówi inaczej.
 

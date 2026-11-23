@@ -2,6 +2,7 @@
 title: "SmartStock: magazyn pod kontrolą, zlecenia na Telegramie"
 description: "SmartStock zamienia kartki i telefony w jedno zlecenie z powiadomieniem na Telegramie i automatyczną aktualizacją stanów. Wdrożenie do 7 dni."
 lang: pl
+alt: smartstock-warehouse-under-control-en
 pubDate: 2026-12-10
 tags: [SmartStock, magazyn, Smart]
 draft: false

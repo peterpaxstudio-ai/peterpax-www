@@ -177,3 +177,19 @@ footer { border-top: 1px solid var(--line); padding-block: 32px 40px; color: var
   .sp-art { max-width: 260px; }
   .sec { margin-bottom: 56px; }
 }
+
+/* wpis na blogu: meta, autor, powiazane */
+.post-crumbs { padding-top: 0; margin-bottom: 18px; }
+.post-meta { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 14px !important; color: var(--muted) !important; margin: 0 0 28px; }
+.post-meta a { color: var(--ink); text-decoration: none; border-bottom: 1.5px solid var(--line); }
+.posts .post-meta { margin: 6px 0 4px; }
+.author-box { margin-top: 48px; background: var(--surface); border: 1.5px solid var(--line); border-radius: 22px; padding: 22px; }
+.author-box b { display: block; font: 800 18px var(--f-display); margin-bottom: 6px; }
+.author-box p { margin: 0 0 10px; font-size: 16px; }
+.related { margin-top: 40px; }
+.related h2 { font-size: 24px; margin: 0 0 12px; }
+.related ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.related li { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; border-top: 1.5px dashed var(--line); padding-top: 10px; }
+.related a { font-weight: 700; text-decoration: none; }
+.related a:hover { color: var(--coral); }
+.related time { color: var(--muted); font-size: 14px; }

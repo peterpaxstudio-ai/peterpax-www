@@ -2,6 +2,7 @@
 title: "Gmail with Gemini: what AI in the inbox means for a small firm"
 description: "Google added summaries, AI Inbox and suggested replies to Gmail. Here is what that gives a small business and what these features will not solve."
 lang: en
+alt: gmail-gemini-ai-w-skrzynce
 pubDate: 2026-11-18
 tags: [AI, email, automation]
 draft: false

@@ -2,6 +2,7 @@
 title: "AI in the warehouse: what changes and where to start"
 description: "Warehouse systems are getting AI features, but experts advise starting with processes and data. What it means for a small firm and where to begin."
 lang: en
+alt: ai-w-magazynie-co-sie-zmienia-i-od-czego-zaczac
 pubDate: 2026-12-08
 tags: [AI, warehouse, automation]
 draft: false

@@ -2,6 +2,7 @@
 title: "SmartCal: online consultation booking without the phone, 24/7"
 description: "SmartCal lets clients book consultations in your Google Calendar on their own, at any hour. Setup takes one working day."
 lang: en
+alt: smartcal-rezerwacja-konsultacji-online-24-7
 pubDate: 2026-12-03
 tags: [SmartCal, booking, Smart]
 draft: false

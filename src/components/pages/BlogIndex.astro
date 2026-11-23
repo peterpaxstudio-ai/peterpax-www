@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import firma from '../../data/firma.json';
 import { ui, paths, type Lang } from '../../i18n/ui';
 
 interface Props { lang: Lang; }
@@ -10,6 +11,7 @@ const base = paths[lang].blog;
 const posts = (await getCollection('blog'))
   .filter((p) => !p.data.draft && p.data.lang === lang && p.data.pubDate <= new Date())
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const fmt = new Intl.DateTimeFormat(lang === 'pl' ? 'pl-PL' : 'en-GB', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 ---
 <Base title={`${t.blogTitle} Peter Pax`} description={lang === 'pl' ? 'Wpisy o automatyzacji w małych firmach.' : 'Posts about automation in small businesses.'} lang={lang} altPath={lang === 'pl' ? paths.en.blog : paths.pl.blog}>
   <section class="page">
@@ -20,6 +22,7 @@ const posts = (await getCollection('blog'))
           {posts.map((p) => (
             <li>
               <a href={`${base}${p.id}/`}>{p.data.title}</a>
+              <p class="post-meta"><span>{p.data.author ?? firma.wlasciciel}</span><time datetime={p.data.pubDate.toISOString().slice(0, 10)}>{fmt.format(p.data.pubDate)}</time></p>
               <p>{p.data.description}</p>
             </li>
           ))}

@@ -2,6 +2,7 @@
 title: "SmartReview: więcej opinii w Google i odpowiedzi na każdą"
 description: "SmartReview prosi klientów o opinię w Google i podpowiada odpowiedzi na każdą recenzję. Ty zatwierdzasz, co idzie publicznie. Podłączenie w około 5 minut."
 lang: pl
+alt: smartreview-more-google-reviews-en
 pubDate: 2026-11-26
 tags: [SmartReview, opinie, Smart]
 draft: false

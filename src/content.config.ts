@@ -58,6 +58,8 @@ const blog = defineCollection({
     title: z.string().min(20).max(70),
     description: z.string().min(80).max(160),
     lang: z.enum(['pl', 'en']).default('pl'),
+    author: z.string().optional(), // domyślnie właściciel z firma.json
+    alt: z.string().optional(), // nazwa pliku (bez .md) wersji w drugim języku
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     tags: z.array(z.string()).max(5).default([]),

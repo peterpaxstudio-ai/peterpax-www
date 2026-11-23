@@ -2,6 +2,7 @@
 title: "AI i opinie w Google: co się zmieniło w odpowiadaniu na recenzje"
 description: "Google testuje podpowiedzi odpowiedzi na opinie i łączy Gemini z wizytówką firmy. Co to znaczy dla właściciela małej firmy i na co uważać."
 lang: pl
+alt: ai-and-google-reviews-replying-en
 pubDate: 2026-11-24
 tags: [AI, opinie, Google]
 draft: false
