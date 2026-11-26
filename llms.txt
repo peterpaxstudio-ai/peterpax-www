@@ -1,0 +1,67 @@
+# Peter Pax
+
+> Peter Pax (Peter Pax Piotr Gancarz, JDG, Brzeg) tworzy gotowe automatyzacje dla małych firm w serii Smart, na przykład SmartInbox, SmartCal, SmartReview i SmartStock. Strona jest po polsku i po angielsku. / Peter Pax builds ready-made automation solutions for small businesses in the Smart series. The site is in Polish and English.
+
+Ceny ustalane są indywidualnie po rozmowie, dlatego strona ich nie podaje. / Pricing is quoted individually after a call, so the site lists no prices.
+
+## Firma / Company
+
+- Właściciel i autor treści / Owner and author: Piotr Gancarz
+- Adres / Address: ul. Towarowa 10, Brzeg, Polska
+- NIP: 7471400895
+- E-mail: biuro@peterpax.pl
+- Telefon / Phone: +48 535 746 885
+- Umów rozmowę / Book a call: https://calendar.app.google/eyg4dWm3nMRrRYoz9
+- [O firmie](https://peterpax.ai500.pl/o-firmie/) | [About](https://peterpax.ai500.pl/en/about/)
+- [Kontakt](https://peterpax.ai500.pl/kontakt/) | [Contact](https://peterpax.ai500.pl/en/contact/)
+
+## Rozwiązania Smart (PL)
+
+- [SmartChef](https://peterpax.ai500.pl/rozwiazania/smartchef/): Jedna lista zamówień z telefonu, Messengera i Facebooka dla lokali z daniem dnia. Bez przepisywania i bez prowizji dla aplikacji.
+- [SmartMenu](https://peterpax.ai500.pl/rozwiazania/smartmenu/): SmartMenu zamienia wyceny cateringu na kartce w szybkie zamówienia: kosztorys na ekranie, karta dla kuchni jednym kliknięciem i zamawianie online.
+- [SmartEstates](https://peterpax.ai500.pl/rozwiazania/smartestates/): SmartEstates odbiera zapytania z Otodom i OLX, sprawdza duplikaty, odpowiada klientowi i przypisuje lead agentowi, zanim konkurencja otworzy maila.
+- [SmartRadio](https://peterpax.ai500.pl/rozwiazania/smartradio/): Dedykacje, newsy i raporty dla reklamodawców przygotowują się same, a redakcja tylko zatwierdza. Rozwiązanie dla radiostacji lokalnych i internetowych.
+- [SmartCal](https://peterpax.ai500.pl/rozwiazania/smartcal/): SmartCal pozwala klientom samodzielnie rezerwować konsultacje w Twoim kalendarzu Google o każdej porze. Wdrożenie w jeden dzień roboczy.
+- [SmartFiles](https://peterpax.ai500.pl/rozwiazania/smartfiles/): Handlowiec klika „Wyślij”, a SmartFiles zapisuje ofertę na Dysku Google pod jednolitą nazwą i dopisuje wiersz do rejestru. Wdrożenie w 24 godziny.
+- [SmartInbox](https://peterpax.ai500.pl/rozwiazania/smartinbox/): SmartInbox czyta każdy mail, nadaje priorytet, układa w folderach i przygotowuje szkic odpowiedzi. Uruchomienie w około 2 dni, bez zmiany poczty.
+- [SmartCRM](https://peterpax.ai500.pl/rozwiazania/smartcrm/): SmartCRM to wtyczka AI do Twojego obecnego CRM: kwalifikuje leady, wysyła follow-upy i uzupełnia dane w tle, bez nowego logowania i migracji.
+- [SmartReview](https://peterpax.ai500.pl/rozwiazania/smartreview/): SmartReview prosi klientów o opinię w Google i podpowiada odpowiedzi na każdą recenzję. Ty zatwierdzasz, co idzie publicznie. Podłączenie w 5 minut.
+- [SmartStock](https://peterpax.ai500.pl/rozwiazania/smartstock/): SmartStock zamienia kartki i telefony w jedno zlecenie z powiadomieniem na Telegramie i automatyczną aktualizacją stanów. Wdrożenie do 7 dni.
+
+## Smart solutions (EN)
+
+- [SmartChef](https://peterpax.ai500.pl/en/solutions/smartchef/): One order list from phone, Messenger and Facebook for venues with a dish of the day. No retyping and no app commission.
+- [SmartMenu](https://peterpax.ai500.pl/en/solutions/smartmenu/): SmartMenu turns catering quotes on paper into quick orders: an instant on-screen quote, a kitchen sheet in one click and online ordering.
+- [SmartEstates](https://peterpax.ai500.pl/en/solutions/smartestates/): SmartEstates picks up enquiries from property portals, checks duplicates, replies to the client and assigns the lead before competitors open their email.
+- [SmartRadio](https://peterpax.ai500.pl/en/solutions/smartradio/): Dedications, news and advertiser reports prepare themselves and the newsroom only approves. A solution for local and online radio stations.
+- [SmartCal](https://peterpax.ai500.pl/en/solutions/smartcal/): SmartCal lets clients book consultations in your Google Calendar on their own, at any hour. Setup takes one working day.
+- [SmartFiles](https://peterpax.ai500.pl/en/solutions/smartfiles/): A salesperson clicks “Send”, and SmartFiles saves the quote on Google Drive under a standard name and adds a row to the register. Setup in 24 hours.
+- [SmartInbox](https://peterpax.ai500.pl/en/solutions/smartinbox/): SmartInbox reads every email, sets its priority, files it and prepares a draft reply. Up and running in about 2 days, without changing your email.
+- [SmartCRM](https://peterpax.ai500.pl/en/solutions/smartcrm/): SmartCRM is an AI plugin for your current CRM: it qualifies leads, sends follow-ups and fills in data in the background, with no new login or migration.
+- [SmartReview](https://peterpax.ai500.pl/en/solutions/smartreview/): SmartReview asks clients for a Google review and drafts a reply to every one. You approve what goes public. Connected in 5 minutes.
+- [SmartStock](https://peterpax.ai500.pl/en/solutions/smartstock/): SmartStock turns paper slips and phone calls into one order with a Telegram notification and automatic stock updates. Setup in up to 7 days.
+
+## Blog (PL)
+
+- [SmartReview: więcej opinii w Google i odpowiedzi na każdą](https://peterpax.ai500.pl/blog/smartreview-wiecej-opinii-w-google/): SmartReview prosi klientów o opinię w Google i podpowiada odpowiedzi na każdą recenzję. Ty zatwierdzasz, co idzie publicznie. Podłączenie w około 5 minut. (2026-11-26)
+- [AI i opinie w Google: co się zmieniło w odpowiadaniu na recenzje](https://peterpax.ai500.pl/blog/ai-i-opinie-w-google-odpowiadanie-na-recenzje/): Google testuje podpowiedzi odpowiedzi na opinie i łączy Gemini z wizytówką firmy. Co to znaczy dla właściciela małej firmy i na co uważać. (2026-11-24)
+- [Gmail z Gemini: co AI w skrzynce zmienia dla małej firmy](https://peterpax.ai500.pl/blog/gmail-gemini-ai-w-skrzynce/): Google dodał do Gmaila podsumowania, AI Inbox i sugestie odpowiedzi. Sprawdzamy, co to daje małej firmie i czego te funkcje nie załatwią. (2026-11-18)
+- [SmartInbox: skrzynka firmowa, która sortuje się sama](https://peterpax.ai500.pl/blog/smartinbox-skrzynka-ktora-sortuje-sie-sama/): SmartInbox czyta każdy mail, nadaje priorytet, układa w folderach i przygotowuje szkic odpowiedzi. Uruchomienie w około 2 dni, bez zmiany poczty. (2026-11-18)
+
+## Blog (EN)
+
+- [SmartReview: more Google reviews and a reply to every one](https://peterpax.ai500.pl/en/blog/smartreview-more-google-reviews-en/): SmartReview asks clients for a Google review and drafts a reply to every one. You approve what goes public. Connected in about 5 minutes. (2026-11-26)
+- [AI and Google reviews: what changed in replying to them](https://peterpax.ai500.pl/en/blog/ai-and-google-reviews-replying-en/): Google is testing suggested review replies and connecting Gemini to your business profile. What it means for a small business owner and what to watch for. (2026-11-24)
+- [Gmail with Gemini: what AI in the inbox means for a small firm](https://peterpax.ai500.pl/en/blog/gmail-gemini-ai-inbox-en/): Google added summaries, AI Inbox and suggested replies to Gmail. Here is what that gives a small business and what these features will not solve. (2026-11-18)
+- [SmartInbox: a business inbox that sorts itself](https://peterpax.ai500.pl/en/blog/smartinbox-inbox-that-sorts-itself-en/): SmartInbox reads every email, sets its priority, files it and prepares a draft reply. Up and running in about 2 days, without changing your email. (2026-11-18)
+
+## Profile / Profiles
+
+- LinkedIn (firma / company): https://www.linkedin.com/company/peter-pax/
+- Facebook: https://www.facebook.com/peterpaxai/
+- LinkedIn (Piotr Gancarz): https://www.linkedin.com/in/piotr-gancarz/
+
+## Optional
+
+- [Strona główna (PL)](https://peterpax.ai500.pl/)
+- [Home page (EN)](https://peterpax.ai500.pl/en/)
